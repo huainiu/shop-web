@@ -1,0 +1,288 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #333333;
+    font: 12px/1.5 microsoft yahei;
+    word-wrap: break-word;
+}
+abbr, article, aside, bb, datagrid, datalist, details, dialog, eventsource, figure, footer, header, mark, menu, meter, nav, output, progress, section, time {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table caption {
+    display: none;
+}
+ol, ul {
+    list-style: none outside none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+fieldset, img {
+    border: 0 none;
+}
+a {
+    outline: medium none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+em {
+    font-style: normal;
+}
+img {
+    vertical-align: middle;
+}
+input, textarea {
+    padding: 2px;
+}
+input, select, textarea {
+    font: 12px microsoft yahei;
+}
+textarea {
+    resize: none;
+}
+button {
+    padding: 0;
+}
+button, label {
+    cursor: pointer;
+    vertical-align: middle;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
+.clear {
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+i, em, cite {
+    font-style: normal;
+}
+.b5mgbg {
+    background: url("../images/backstage/b5mgbg.png") no-repeat scroll 0 0 transparent;
+}
+.header {
+    background: url("../images/backstage/logbg.jpg") repeat scroll 0 0 transparent;
+    height: 66px;
+    margin: 0 auto;
+    width: 100%;
+}
+.hdlogo {
+    background: url("../images/backstage/logo.png") no-repeat scroll 0 0 transparent;
+    display: inline;
+    float: left;
+    height: 46px;
+    margin: 10px 0 0 15px;
+    text-indent: -9999px;
+    width: 205px;
+}
+.mainnav {
+    display: inline;
+    float: left;
+    margin: 20px 0 0 135px;
+}
+.mainnav li {
+    display: inline;
+    float: left;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 15px;
+    text-align: center;
+    width: 120px;
+}
+.mainnav li a, .mainnav li a:visited {
+    color: #B2BBC7;
+}
+.mainnav li a:hover {
+    color: #FFFFFF;
+}
+.mainnav li.cur {
+    border-bottom: 3px solid #EE7D1C;
+}
+.mainnav li.cur a, .mainnav li.cur a:visited {
+    color: #FFFFFF;
+}
+.hellotext {
+    color: #B2BBC7;
+    float: right;
+    padding: 30px 20px 0 0;
+}
+.hellotext a {
+    margin-left: 10px;
+}
+.hellotext a, .hellotext a:visited {
+    color: #FFFFFF;
+}
+.hellotext a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.hellotext strong {
+    color: #FFFFFF;
+}
+.conbox {
+    background: url("../images/backstage/conybg.jpg") repeat-y scroll 0 0 transparent;
+    min-height: 600px;
+    padding-left: 160px;
+    position: relative;
+}
+.sidenav {
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    top: 68px;
+    width: 160px;
+}
+.maincon {
+    left: 160px;
+    padding: 0 15px;
+    position: absolute;
+    top: 106px;
+    width: 89%;
+}
+.eachfenl {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #F7F7F7 #F7F7F7 -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 2px 2px 0;
+}
+.fltlt {
+    background: none repeat scroll 0 0 #EAEAEA;
+    color: #444444;
+    cursor: pointer;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 12px;
+    position: relative;
+}
+.fllist {
+    border-left: 3px solid #EE7D1C;
+    display: none;
+}
+.fllist p {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 20px;
+}
+.fllist p em {
+    color: #EE7636;
+    margin-right: 5px;
+}
+.sidenav .cur {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #EE7D1C;
+}
+.sidenav .cur a {
+    color: #EE7D1C;
+}
+.sidenav a {
+    color: #333333;
+}
+.sidenav a:hover {
+    color: #EE7D1C;
+}
+.sidenav img {
+    margin: 0 5px 2px 0;
+}
+.sjtri {
+    border-color: transparent transparent transparent #BEBEBC;
+    border-style: solid;
+    border-width: 6px;
+    font-size: 0;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 14px;
+    top: 12px;
+    width: 0;
+}
+.fldown .sjtri {
+    border-color: #BEBEBC transparent transparent;
+    right: 17px;
+    top: 15px;
+}
+.fllist dl {
+    line-height: 35px;
+}
+.fllist dt {
+    padding-left: 9px;
+}
+.fllist dd {
+    padding-left: 20px;
+}
+.fllist dd:hover, .fllist dt:hover, .fllist p:hover, .fllist p.cur {
+    background: none repeat scroll 0 0 #F0F0F0;
+}
+.fllist dd.cur:hover, .fllist dt.cur:hover, .fllist p.cur:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.fllist dd:hover a, .fllist dt:hover a, .fllist p:hover a, .fltlt:hover a {
+    color: #EE7D1C;
+}
+.fllist dd em {
+    color: #EE7636;
+    margin-right: 5px;
+}
+.crumbs {
+    font-size: 14px;
+    height: 35px;
+    left: 160px;
+    line-height: 35px;
+    padding-left: 15px;
+    position: absolute;
+}
+.crumbs a, .crumbs a:visited {
+    color: #217DCA;
+}
+.crumbs span {
+    padding: 0 5px;
+}
+.pgtltbox {
+    height: 35px;
+    line-height: 35px;
+}
+.pagetlt {
+    color: #333333;
+    display: inline;
+    font-size: 24px;
+    padding-right: 15px;
+}
+.newus {
+    color: #3C88CE;
+    margin-right: 15px;
+}
+a.newus:hover {
+    text-decoration: underline;
+}
+.padtop {
+    padding-top: 10px;
+}

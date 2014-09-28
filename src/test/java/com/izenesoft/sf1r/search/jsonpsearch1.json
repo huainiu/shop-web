@@ -1,0 +1,49 @@
+{
+ "analyzer_result":true,
+ "attr":
+ {
+   "attr_result":false
+ },
+ "collection":"b5mo",
+ "conditions":
+ [
+
+ ],
+ "header":
+ {
+   "check_time":"true"
+ },
+ "limit":4,
+ "offset":0,
+ "remove_duplicated_result":false,
+ "search":
+ {
+   "analyzer":
+   {
+     "apply_la":true,
+     "use_original_keyword":false,
+     "use_synonym_extension":true
+   },
+   "group_label":
+   [
+
+   ],
+   "is_require_related":false,
+   "keywords":"100%麻衬衫(长袖)",
+   "log_keywords":true,
+   "ranking_model":"bm25",
+   "searching_mode":
+   {
+     "fuzzy_threshold":"0.1",
+     "lucky":1000,
+     "mode":"suffix",
+     "tokens_threshold":"1",
+     "use_fuzzy":true,
+     "use_fuzzyThreshold":true
+   }
+ },
+ "sort":
+ [
+
+ ]
+}

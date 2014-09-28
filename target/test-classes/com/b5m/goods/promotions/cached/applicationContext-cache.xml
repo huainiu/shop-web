@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd"
+	default-autowire="byName" default-lazy-init="false">
+
+	<bean id="memcachedClient" class="net.rubyeye.xmemcached.MemcachedClient"
+		factory-bean="memcachedClientBuilder" factory-method="build">
+		
+	</bean>
+
+	<bean id="memcachedClientBuilder" class="net.rubyeye.xmemcached.XMemcachedClientBuilder">
+		<constructor-arg>
+			<list>
+				<bean class="java.net.InetSocketAddress">
+					<constructor-arg>
+						<value>localhost</value>
+					</constructor-arg>
+					<constructor-arg>
+						<value>11211</value>
+					</constructor-arg>
+				</bean>
+			</list>
+		</constructor-arg>
+	</bean>
+
+	<bean id="xmemcachedProxy" class="com.b5m.cached.xmemcached.XMemcachedProxy">
+		<constructor-arg index="0" ref="memcachedClient"></constructor-arg>
+		<property name="retriveTimeout" value="300"></property>
+		<property name="writeTimeout" value="300"></property>
+	</bean>
+	
+	<bean id="cachedManager" class="com.b5m.cached.CachedManager"
+		init-method="load" destroy-method="unload">
+		<property name="cachedObjects">
+			<list>
+				<ref bean="suppliserCachedService"/>
+				<ref bean="suppliserCachedTemplateService"/>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="suppliserCachedService" class="com.b5m.goods.promotions.cached.SuppliserCachedService">
+		<constructor-arg index="0" ref="xmemcachedProxy"></constructor-arg>
+		<constructor-arg index="1" ref="suppliserService"></constructor-arg>
+		<constructor-arg index="2">
+			<bean class="com.b5m.cached.CachedConfigure">
+				<property name="expiredTime" value="86400"></property>
+				<property name="keyPrefix" value="sp"></property>
+			</bean>
+		</constructor-arg>
+	</bean>
+
+	<bean id="suppliserCachedTemplateService" class="com.b5m.goods.promotions.cached.SuppliserCachedTemplateService">
+		<constructor-arg index="0" ref="xmemcachedProxy"></constructor-arg>
+		<constructor-arg index="1" ref="suppliserService"></constructor-arg>
+		<constructor-arg index="2">
+			<bean class="com.b5m.cached.CachedConfigure">
+				<property name="expiredTime" value="86400"></property>
+				<property name="keyPrefix" value="spl"></property>
+				<!-- 是否一直从缓存中获取，如果不是，则将缓存保存到本地 -->
+				<property name="alwaysRetriveFromRemote" value="false"></property>
+			</bean>
+		</constructor-arg>
+	</bean>
+</beans>

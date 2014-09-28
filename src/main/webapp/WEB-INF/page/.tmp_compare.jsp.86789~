@@ -1,0 +1,748 @@
+<%@ page import="java.net.URLEncoder"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%> 
+<%@ taglib prefix="b5m" uri="http://www.b5m.com/tags"%> 
+<%@ page session="false"%>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>å»æ¯è¾</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css">
+		<link rel="stylesheet" type="text/css" href="../css/detail.css">
+	</head>
+
+	<body>
+		<!--plug-bar s-->
+		<div id="plug-bar" style="display:none;">
+			<div class="w980">
+				<span class="plug">
+					<!--[if !IE]><!-->
+					<a href="http://t.b5m.com/" target="_blank"><img src="../images/new_header/plug_img_24.png" alt=""></a>
+					<!--<![endif]-->
+					<!--[if IE]>
+					<a href="http://t.b5m.com/" target="_blank"><img src="../images/new_header/plug_img_08.png" alt=""></a>
+					<![endif]-->
+				</span> 
+				<a href="javascript:closed();" class="closed" title="å³é­">å³é­</a>
+			</div>
+		</div>
+		<!--plug-bar e-->
+
+		<!--public-bar s-->
+		<div id="public-bar">
+			<div class="w980">
+				<div class="bar-nav">
+					<ul>
+						<li><a href="#" class="items i-1"><b></b>å¸®5ä¹°é¦é¡µ</a></li>
+						<li><span class="lines"></span></li>
+						<li><a href="#" class="items i-2"><b></b>æ·ç¹ä»·</a></li>
+						<li><span class="lines"></span></li>
+						<li><a href="#" class="items i-3"><b></b>è´­ç©å¯¼èª</a></li>
+						<li><span class="lines"></span></li>
+						<li><a href="#" class="items i-4"><b></b>ææºå¸®5ä¹°</a></li>
+						<li><span class="lines"></span></li>
+						<li><a href="#" class="items i-8"><b></b>å¸®5æ</a></li>
+					</ul>
+				</div>
+				<div class="bar-login">
+					<ul class="not-logged" style="display:none">
+						<li><a href="#" class="items">ç»å½</a><a href="#" class="items">åè´¹æ³¨å</a></li>
+						<li><a href="#" class="items">ä¸ªäººä¸­å¿</a></li>
+						<li><a href="#" class="items">æ¶èæ¬ç«</a></li>
+					</ul>
+					<ul class="logged">
+						<li class="per">
+							<span class="items"><em>RoseBrother123</em></span>
+							<b class="per-name"></b>
+							<ul class="per-list">
+								<li><a href="#" class="i-5"><b></b>æçB5M</a></li>
+								<li><a href="#" class="i-6"><b></b>ä¸ªäººèµæ</a></li>
+								<li><a href="#" class="i-7"><b></b>éåº</a></li>
+							</ul>
+						</li>
+						<li><a href="#" class="items" style="padding-right:0;">æ¶èæ¬ç«</a></li>
+					</ul>
+				</div>	
+			</div>
+		</div>
+		<!--public-bar e-->
+
+        <!--search s-->
+		<div class="search w980 clear-fix">
+			<!--[if !IE]><!-->
+			<div class="hd-logo">
+				<h1><img src="../images/www/logo_170_53_24.png" alt="å¸®5ä¹°"></h1>
+			</div>
+			<!--<![endif]-->
+			<!--[if IE]>
+			<div class="hd-logo">
+				<h1><img src="../images/www/logo_170_53_08.png" alt="å¸®5ä¹°"></h1>
+			</div>
+			<![endif]-->
+			<div class="hd-search">
+				<ul class="hd-search-tab">
+					<li><a href="#" class="cur">åå</a>
+						<div class="bubble">
+							<span class="b-l"><span class="b-r">9999</span></span>
+							<b class="b-edge"></b>
+						</div>
+					</li>
+					<li><span class="lines"></span></li>
+					<li><a href="#">æ·ç¹ä»·</a>
+						<div class="bubble">
+							<span class="b-l"><span class="b-r">123</span></span>
+							<b class="b-edge"></b>
+						</div>
+					</li>
+					<li><span class="lines"></span></li>
+					<li><a href="#">éè¡</a></li>
+					<li><span class="lines"></span></li>
+					<li><a href="#">è²ç</a></li>
+					<li><span class="lines"></span></li>
+					<li><a href="#">å¢è´­</a></li>
+					<li><span class="lines"></span></li>
+					<li><a href="#">ç¥¨å¡</a></li>
+					<li><span class="lines"></span></li>
+					<li><a href="#">é©å½é¦</a></li>
+				</ul>
+
+				<div class="hd-search-area">
+					<input class="input" type="text" x-webkit-speech="" autocomplete="off"  maxlength="40" value="">
+					<label id="label">ç½è´­ä»è¿éå¼å§ æåå æåå</label>
+					<a href="javascript:void(0);" class="btn">æç´¢</a>
+					<b class="close">&times;</b>
+				</div>
+			</div>
+		</div>
+		<!--search e-->
+
+		<!--ad-banner s-->
+		<div class="ad-banner">
+			<a href="#" target="_blank"><img src="http://cdn.bang5mai.com/upload/hp_images/spdetail_20130415.jpg"></a>
+		</div>
+		<!--ad-banner e-->
+
+		<!--nav s-->
+		<div id="nav" class="w980">
+			<div class="nav-menu">
+				<a href="#">é¦é¡µ</a>
+				<span>&gt;</span>
+				<span>æç´¢â<em>ææº</em>â</span>
+			</div>
+			<div class="nav-title">å¨43ä¸ªåå®¶ä¸­ï¼æ¾å°ç¸å³åå&nbsp;<em>4757</em>&nbsp;ä»¶</div>
+		</div>
+		<!--nav e-->
+
+		<!--layout-wrap s-->
+		<div id="layout-wrap">
+			<div class="wrap">
+				<!--shop-show s-->
+				<div class="shop-show">
+					<div class="show-hd">
+						<h1>MOTOROLA/æ©æç½æ DEFY+ ME525+ Android 2.3 æºè½ææº</h1>
+					</div>
+					<div class="show-bd clear-fix">
+						<div class="col-main">
+							<div class="main">
+								<p class="show-price">åèä»·<b>&yen;</b><em>4850</em>èµ·</p>
+								<p class="trend"><strong>åå²ä»·æ ¼</strong></p>
+								<div class="show-trend">
+									<p class="show-trend-text">ä»·æ ¼è¶å¿<em>(è¿30å¤©ä»·æ ¼åå²)</em></p>
+									<div class="show-trend-plug"></div>
+								</div>
+								<ul class="show-config clear-fix">
+									<li><span>è§¦æ¸å±ï¼çµå®¹å¼è§¦å±</span></li>
+									<li><span>å¤è§è®¾è®¡ï¼ç´æ¿</span></li>
+									<li><span>æåå¤´ï¼500-800ä¸åç´ </span></li>
+									<li><span>é¢è²ï¼çº¢è²</span></li>
+								</ul>
+								<div class="score clear-fix">
+									<div class="score-pannel">
+										<div class="score-pannel-on" style="width:70%;"></div>
+									</div>
+									<div class="score-comment">4.6</div>
+									<div class="score-rate">è¯è®º2345</div>
+								</div>
+								<div class="show-tag clear-fix" id="J_tag">
+									<a href="javascript:;">æ§ä»·æ¯å¾é«</a>
+									<a href="javascript:;">è¡è´§æ­£å</a>
+									<a href="javascript:;">å¤è§éä¸½</a>
+									<a href="javascript:;">çµæ± ä¸è¬</a>
+									<a href="javascript:;">ç³»ç»ä¸æµç</a>
+									<a href="javascript:;">æ§ä»·æ¯å¾é«</a>
+									<a href="javascript:;">è¡è´§æ­£å</a>
+									<a href="javascript:;">å¤è§éä¸½</a>
+									<a href="javascript:;">çµæ± ä¸è¬</a>
+									<a href="javascript:;">ç³»ç»ä¸æµç</a>
+								</div>
+								<div class="btn-wrap clear-fix"><a class="go-compare fr" href="#"><span>æ¶è</span></a><a class="go-buy fl" href="#">å»è´­ä¹°</a></div>
+								<a class="b5t-app" href="#"><img src="../images/www/shenqi.png" alt="å®æ¶æ¯ä»·-å¸®5æ·"></a>
+							</div>
+						</div>
+						<div class="col-sub">
+							<div class="show-pic" id="show-pic">
+								<div class="show-area">
+									<ul class="show-pic-list">
+										<li class="item">
+											<p class="geo-pic">
+												<span>
+													<img src="http://img1.icson.com/product/mm/21/106/21-106-12601.jpg" alt="">
+												</span>
+											</p>
+										</li>
+										<li class="item">
+											<p class="geo-pic">
+												<span>
+													<img src="http://img1.icson.com/product/mm/21/106/21-106-12601-01.jpg" alt="">
+												</span>
+											</p>
+										</li>
+										<li class="item">
+											<p class="geo-pic">
+												<span>
+													<img src="http://img1.icson.com/product/mm/21/106/21-106-12601-02.jpg" alt="">
+												</span>
+											</p>
+										</li>
+										<li class="item">
+											<p class="geo-pic">
+												<span>
+													<img src="http://img1.icson.com/product/mm/21/106/21-106-12601-03.jpg" alt="">
+												</span>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<a id="prev" href="javascript:;">&lt;</a>
+								<a id="next" href="javascript:;">&gt;</a>
+								<span id="pic-num"></span>
+							</div>							
+						</div>
+					</div>
+				</div>
+				<!--shop-show e-->
+				<!--tab s-->
+				<div class="tab">
+					<div class="tab-hd" id="J_fixed">
+						<ul>
+							<li class="cur">å¨é¨åå®¶(34)</li>
+							<li>è¯¦æåæ°</li>
+							<li>è¯è®º(52)</li>
+							<li>ä»·æ ¼è¶å¿</li>
+						</ul>
+					</div>
+					<div class="tab-bd">
+						<!--å¨é¨åå®¶ s-->
+						<div class="tab-box" style="display:block;">
+							<!--ç­é s-->
+							<div class="tab-filter">
+								<ul class="shop-seq-item clear-fix">
+									<li class="first"><a href="#">é»è®¤</a></li>
+									<li><a href="#">ææ°</a></li>
+									<li><a href="#">å¥½è¯</a></li>
+									<li class="last cur"><a href="#">ä»·æ ¼<img src="../images/www/arr_up_07_08.gif"></a></li>
+								</ul>
+							</div>
+							<!--ç­é e-->
+							<!--åå®¶ s-->
+							<div class="tab-shop clear-fix">
+								<div class="tab-shop-item clear-fix">
+									<p class="shop-logo">
+										<a href="#" target="_blank" class="geo-pic">
+											<span>
+												<img src="http://cdn.bang5mai.com/upload/produceImgDir/2012/09/29/769d48db-47d7-4c27-baca-a2f05c10f0af.jpg">
+											</span>
+										</a>
+									</p>
+									<ul class="shop-list">
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">ç«å300åHTC A320E Desire 2012æ°æ¬¾å®åå¨æ°ç´æ¿3.5è±å¯¸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>æ çç±éæ¢</p>
+												<p>æ­£è§åç¥¨</p>
+												<p>æ­£åä¿é</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">å»è´­ç©</a></div>
+										</li>
+									</ul>
+								</div>
+								<div class="tab-shop-item clear-fix">
+									<p class="shop-logo">
+										<a href="#" target="_blank" class="geo-pic">
+											<span>
+												<img src="http://cdn.bang5mai.com/upload/produceImgDir/2012/09/29/d6a964c4-9376-4fc3-8ae4-f91938f9182f.jpg">
+											</span>
+										</a>
+									</p>
+									<ul class="shop-list">
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">ç«å300åHTC A320E Desire 2012æ°æ¬¾å®åå¨æ°ç´æ¿3.5è±å¯¸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>æ çç±éæ¢</p>
+												<p>æ­£è§åç¥¨</p>
+												<p>æ­£åä¿é</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">å»è´­ç©</a></div>
+										</li>
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">ç«å300åHTC A320E Desire 2012æ°æ¬¾å®åå¨æ°ç´æ¿3.5è±å¯¸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>æ çç±éæ¢</p>
+												<p>æ­£è§åç¥¨</p>
+												<p>æ­£åä¿é</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">å»è´­ç©</a></div>
+										</li>
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">ç«å300åHTC A320E Desire 2012æ°æ¬¾å®åå¨æ°ç´æ¿3.5è±å¯¸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>æ çç±éæ¢</p>
+												<p>æ­£è§åç¥¨</p>
+												<p>æ­£åä¿é</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">å»è´­ç©</a></div>
+										</li>
+									</ul>
+									<div class="opt open"><a href="javascript:void(0);">å±å¼å¶ä½3ä»¶åå</a></div>
+								</div>
+								<div class="tab-shop-item clear-fix">
+									<p class="shop-logo">
+										<a href="#" target="_blank" class="geo-pic">
+											<span>
+												<img src="http://cdn.bang5mai.com/upload/produceImgDir/2012/09/29/d6a964c4-9376-4fc3-8ae4-f91938f9182f.jpg">
+											</span>
+										</a>
+									</p>
+									<ul class="shop-list">
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">ç«å300åHTC A320E Desire 2012æ°æ¬¾å®åå¨æ°ç´æ¿3.5è±å¯¸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>æ çç±éæ¢</p>
+												<p>æ­£è§åç¥¨</p>
+												<p>æ­£åä¿é</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">å»è´­ç©</a></div>
+										</li>
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">ç«å300åHTC A320E Desire 2012æ°æ¬¾å®åå¨æ°ç´æ¿3.5è±å¯¸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>æ çç±éæ¢</p>
+												<p>æ­£è§åç¥¨</p>
+												<p>æ­£åä¿é</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">å»è´­ç©</a></div>
+										</li>
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">ç«å300åHTC A320E Desire 2012æ°æ¬¾å®åå¨æ°ç´æ¿3.5è±å¯¸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>æ çç±éæ¢</p>
+												<p>æ­£è§åç¥¨</p>
+												<p>æ­£åä¿é</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">å»è´­ç©</a></div>
+										</li>
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">ç«å300åHTC A320E Desire 2012æ°æ¬¾å®åå¨æ°ç´æ¿3.5è±å¯¸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>æ çç±éæ¢</p>
+												<p>æ­£è§åç¥¨</p>
+												<p>æ­£åä¿é</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">å»è´­ç©</a></div>
+										</li>
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">ç«å300åHTC A320E Desire 2012æ°æ¬¾å®åå¨æ°ç´æ¿3.5è±å¯¸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>æ çç±éæ¢</p>
+												<p>æ­£è§åç¥¨</p>
+												<p>æ­£åä¿é</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">å»è´­ç©</a></div>
+										</li>
+									</ul>
+									<div class="opt"><a href="javascript:void(0);">å±å¼å¶ä½3ä»¶åå</a></div>
+								</div>
+							</div>
+							<!--åå®¶ e-->
+							<!--åé¡µ s-->
+							<div class="detail-page">
+								<table width="100%">
+									<tbody>
+										<tr>
+											<td align="center">
+												<div class="page clear-fix">
+												<span class="all">å±10é¡µ</span>
+												<a class="prev" href="javascript:void(0);">ä¸ä¸é¡µ</a>
+												<a href="javascript:void(0);">1</a>
+												<span>...</span>
+												<a href="javascript:void(0);">3</a>
+												<a href="javascript:void(0);">4</a>
+												<span class="cur">5</span>
+												<a href="javascript:void(0);">6</a>
+												<a href="javascript:void(0);">7</a>
+												<span>...</span>
+												<a href="javascript:void(0);">10</a>
+												<a class="next" href="javascript:void(0);">ä¸ä¸é¡µ</a>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>							
+							<!--åé¡µ e-->
+						</div>
+						<!--å¨é¨åå®¶ e-->
+						<!--è¯¦æåæ° s-->
+						<div class="tab-box">
+							<table width="100%" class="details-parameters">
+								<thead>
+									<tr>
+										<td colspan="2">åºæ¬åæ°</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>å¤è§è®¾è®¡</th>
+										<td>ç´æ¿</td>
+									</tr>
+									<tr>
+										<th>å±å¹åè¾¨ç</th>
+										<td>960*540</td>
+									</tr>
+									<tr>
+										<th>æåå¤´</th>
+										<td>500-800ä¸åæ°</td>
+									</tr>
+									<tr>
+										<th>åç</th>
+										<td>APPLE</td>
+									</tr>
+									<tr>
+										<th>ä¸å¸æ¶é´</th>
+										<td>2011å¹´</td>
+									</tr>
+									<tr>
+										<th>å±å¹å°ºå¯¸</th>
+										<td>2-5è±å¯¸</td>
+									</tr>
+									<tr>
+										<th>æä½ç³»ç»</th>
+										<td>IOS</td>
+									</tr>
+									<tr>
+										<th>åå·</th>
+										<td>iphone 4s</td>
+									</tr>
+									<tr>
+										<th>å®¹é</th>
+										<td>16G</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!--è¯¦æåæ° e-->
+						<!--è¯è®º s-->
+						<div class="tab-box">
+							<!--ç¹è¯ s-->
+							<div class="user-comment">
+								<div class="user-comment-hd">
+									<h4>ç¹è¯<em>(1603)</em></h4>
+								</div>
+								<div class="user-comment-bd">
+									<div class="comment-num">
+										<p class="all">ç»¼åè¯å(æ»¡å5.0)</p>
+										<p class="cur"><strong>4.7</strong>å</p>
+										<p class="num"><span>å±è¯è®º(16303)æ¡</span>ææè¯å(10495)æ¡</p>
+									</div>
+									<ul class="comment-star">
+										<li>
+											<label>5åï¼</label>
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+										</li>
+										<li>
+											<label>4åï¼</label>
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+										</li>
+										<li>
+											<label>3åï¼</label>
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+										</li>
+										<li>
+											<label>2åï¼</label>
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+										</li>
+										<li>
+											<label>1åï¼</label>
+											<img src="../images/www/star10.gif" alt="">
+										</li>
+									</ul>
+									<ul class="comment-result">
+										<li>82% çäººè®¤ä¸ºéå¸¸æ£</li>
+										<li>14% çäººæ¨è</li>
+										<li>3% çäººè®¤ä¸ºä¸è¬</li>
+										<li>82% çäººè®¤ä¸ºéå¸¸æ£</li>
+										<li>82% çäººè®¤ä¸ºéå¸¸æ£</li>
+									</ul>
+								</div>
+							</div>
+							<!--ç¹è¯ e-->
+							<!--å¤§å®¶æä¹è¯´ s-->
+							<div class="shop-show tag">
+								<h2>å¤§å®¶é½æä¹è¯´ï¼</h2>
+								<div class="show-tag clear-fix">
+									<a href="javascript:;">æ§ä»·æ¯å¾é«</a>
+									<a href="javascript:;">è¡è´§æ­£å</a>
+									<a href="javascript:;">å¤è§éä¸½</a>
+									<a href="javascript:;">çµæ± ä¸è¬</a>
+									<a href="javascript:;">ç³»ç»ä¸æµç</a>
+								</div>
+							</div>
+							<!--å¤§å®¶æä¹è¯´ e-->
+							<!--å·²éæ ç­¾ s-->
+							<div class="shop-show has-tag clear-fix">
+								<h2>å·²éæ ç­¾ï¼</h2>
+								<div class="show-tag clear-fix">
+								</div>
+							</div>
+							<!--å·²éæ ç­¾ e-->
+							<!--è¯è®º s-->
+							<div class="shop-comments">
+								<ul>
+									<li>
+										<p class="hd">
+											<a href="#">å°ä¸¸å­</a>
+											<span>æ¥èªäº¬ä¸åå</span>
+											<ins>ä»å¤©12:25</ins>
+										</p>
+										<p class="bd">ä½æ¯è´¨éå¾å¥½ï¼æ¾ç¤ºå¨åè¾¨çä¸éçï¼è¯äºä¸ä¸è§é¢æ­æ¾ï¼æè§å¾èæï¼ç¡¬çè¯»åé£å«ä¸ä¸ªå¿«åï¼é³ç®±é³è´¨å¾ä¸éï¼åå»ä¹°äºä¸ç§¯æåå­åª ä¸ç½å¾å¿«ï¼å¾æºæ¶é´ä¹å¾å¥½ï¼çæ¯ä¸åé±ä¸åè´§åï¼åµåµ~</p>
+									</li>
+									<li>
+										<p class="hd">
+											<a href="#">å°ä¸¸å­</a>
+											<span>æ¥èªäº¬ä¸åå</span>
+											<ins>ä»å¤©12:25</ins>
+										</p>
+										<p class="bd">ä½æ¯è´¨éå¾å¥½ï¼æ¾ç¤ºå¨åè¾¨çä¸éçï¼è¯äºä¸ä¸è§é¢æ­æ¾ï¼æè§å¾èæï¼ç¡¬çè¯»åé£å«ä¸ä¸ªå¿«åï¼é³ç®±é³è´¨å¾ä¸éï¼åå»ä¹°äºä¸ç§¯æåå­åª ä¸ç½å¾å¿«ï¼å¾æºæ¶é´ä¹å¾å¥½ï¼çæ¯ä¸åé±ä¸åè´§åï¼åµåµ~</p>
+									</li>
+									<li>
+										<p class="hd">
+											<a href="#">å°ä¸¸å­</a>
+											<span>æ¥èªäº¬ä¸åå</span>
+											<ins>ä»å¤©12:25</ins>
+										</p>
+										<p class="bd">ä½æ¯è´¨éå¾å¥½ï¼æ¾ç¤ºå¨åè¾¨çä¸éçï¼è¯äºä¸ä¸è§é¢æ­æ¾ï¼æè§å¾èæï¼ç¡¬çè¯»åé£å«ä¸ä¸ªå¿«åï¼é³ç®±é³è´¨å¾ä¸éï¼åå»ä¹°äºä¸ç§¯æåå­åª ä¸ç½å¾å¿«ï¼å¾æºæ¶é´ä¹å¾å¥½ï¼çæ¯ä¸åé±ä¸åè´§åï¼åµåµ~</p>
+									</li>
+								</ul>
+							</div>
+							<!--è¯è®º e-->							
+						</div>
+						<!--è¯è®º e-->
+						<!--ä»·æ ¼è¶å¿ s-->
+						<div class="tab-box">
+							<div>Flashæä»¶å¨æ­¤</div>
+						</div>
+						<!--ä»·æ ¼è¶å¿ e-->
+					</div>
+				</div>
+				<!--tab e-->
+				<!--å¤§å®¶æä¹è¯´ s-->
+				<div class="shop-show tag">
+					<h2>å¤§å®¶é½æä¹è¯´ï¼</h2>
+					<div class="show-tag clear-fix">
+						<a href="javascript:;">æ§ä»·æ¯å¾é«</a>
+						<a href="javascript:;">è¡è´§æ­£å</a>
+						<a href="javascript:;">å¤è§éä¸½</a>
+						<a href="javascript:;">çµæ± ä¸è¬</a>
+						<a href="javascript:;">ç³»ç»ä¸æµç</a>
+					</div>
+				</div>
+				<!--å¤§å®¶æä¹è¯´ e-->
+				<!--å·²éæ ç­¾ s-->
+				<div class="shop-show has-tag clear-fix">
+					<h2>å·²éæ ç­¾ï¼</h2>
+					<div class="show-tag clear-fix">
+					</div>
+				</div>
+				<!--å·²éæ ç­¾ e-->
+				<!--è¯è®º s-->
+				<div class="shop-comments">
+					<ul>
+						<li>
+							<p class="hd">
+								<a href="javascript:;">å°ä¸¸å­</a>
+								<span>æ¥èªäº¬ä¸åå</span>
+								<ins>ä»å¤©12:25</ins>
+							</p>
+							<p class="bd">ä½æ¯è´¨éå¾å¥½ï¼æ¾ç¤ºå¨åè¾¨çä¸éçï¼è¯äºä¸ä¸è§é¢æ­æ¾ï¼æè§å¾èæï¼ç¡¬çè¯»åé£å«ä¸ä¸ªå¿«åï¼é³ç®±é³è´¨å¾ä¸éï¼åå»ä¹°äºä¸ç§¯æåå­åª ä¸ç½å¾å¿«ï¼å¾æºæ¶é´ä¹å¾å¥½ï¼çæ¯ä¸åé±ä¸åè´§åï¼åµåµ~</p>
+						</li>
+						<li>
+							<p class="hd">
+								<a href="javascript:;">å°ä¸¸å­</a>
+								<span>æ¥èªäº¬ä¸åå</span>
+								<ins>ä»å¤©12:25</ins>
+							</p>
+							<p class="bd">ä½æ¯è´¨éå¾å¥½ï¼æ¾ç¤ºå¨åè¾¨çä¸éçï¼è¯äºä¸ä¸è§é¢æ­æ¾ï¼æè§å¾èæï¼ç¡¬çè¯»åé£å«ä¸ä¸ªå¿«åï¼é³ç®±é³è´¨å¾ä¸éï¼åå»ä¹°äºä¸ç§¯æåå­åª ä¸ç½å¾å¿«ï¼å¾æºæ¶é´ä¹å¾å¥½ï¼çæ¯ä¸åé±ä¸åè´§åï¼åµåµ~</p>
+						</li>
+						<li>
+							<p class="hd">
+								<a href="javascript:;">å°ä¸¸å­</a>
+								<span>æ¥èªäº¬ä¸åå</span>
+								<ins>ä»å¤©12:25</ins>
+							</p>
+							<p class="bd">ä½æ¯è´¨éå¾å¥½ï¼æ¾ç¤ºå¨åè¾¨çä¸éçï¼è¯äºä¸ä¸è§é¢æ­æ¾ï¼æè§å¾èæï¼ç¡¬çè¯»åé£å«ä¸ä¸ªå¿«åï¼é³ç®±é³è´¨å¾ä¸éï¼åå»ä¹°äºä¸ç§¯æåå­åª ä¸ç½å¾å¿«ï¼å¾æºæ¶é´ä¹å¾å¥½ï¼çæ¯ä¸åé±ä¸åè´§åï¼åµåµ~</p>
+						</li>
+					</ul>
+				</div>
+				<!--è¯è®º e-->
+			</div>
+			<div class="wrap">
+				<div class="shop-mod">
+					<h2>ç¸å³åå</h2>
+					<ul class="shop-mod-hd">
+						<li class="w1">åå</li>
+						<li class="w2">ä»·æ ¼</li>
+						<li class="w3">æå¡ä¿é</li>
+						<li class="w4">æä½</li>
+					</ul>
+					<div class="tab-shop clear-fix">
+						<div class="tab-shop-item clear-fix">
+							<p class="shop-logo spic">
+								<a href="#" target="_blank" class="geo-pic">
+									<span>
+										<img src="http://img.b5m.com/image/T1hybTBTJv1RCvBVdK/222x230/100/%E5%B8%AE5%E4%B9%B0-%E8%89%B2%E7%95%8C-20130225-1213.jpg">
+									</span>
+								</a>
+							</p>
+							<ul class="shop-list">
+								<li class="clear-fix no-border-bottom">
+									<div class="shop-info">ç«å300åHTC A320E Desire 2012æ°æ¬¾å®åå¨æ°ç´æ¿3.5è±å¯¸</div>
+									<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+									<div class="shop-support">
+										<p>æ çç±éæ¢</p>
+										<p>æ­£è§åç¥¨</p>
+										<p>æ­£åä¿é</p>
+									</div>
+									<div class="shop-goto"><a href="#" target="_blank" class="buy">å»è´­ä¹°</a></div>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-shop-item clear-fix">
+							<p class="shop-logo spic">
+								<a href="#" target="_blank" class="geo-pic">
+									<span>
+										<img src="http://img.b5m.com/image/T1hybTBTJv1RCvBVdK/222x230/100/%E5%B8%AE5%E4%B9%B0-%E8%89%B2%E7%95%8C-20130225-1213.jpg">
+									</span>
+								</a>
+							</p>
+							<ul class="shop-list">
+								<li class="clear-fix no-border-bottom">
+									<div class="shop-info">ç«å300åHTC A320E Desire 2012æ°æ¬¾å®åå¨æ°ç´æ¿3.5è±å¯¸</div>
+									<div class="shop-ratio high"><b>&yen;</b><em>3629.00</em></div>
+									<div class="shop-support">
+										<p>æ çç±éæ¢</p>
+										<p>æ­£è§åç¥¨</p>
+										<p>æ­£åä¿é</p>
+									</div>
+									<div class="shop-goto"><a href="#" target="_blank" class="buy">å»è´­ä¹°</a></div>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-shop-item clear-fix">
+							<p class="shop-logo spic">
+								<a href="#" target="_blank" class="geo-pic">
+									<span>
+										<img src="http://img.b5m.com/image/T1hybTBTJv1RCvBVdK/222x230/100/%E5%B8%AE5%E4%B9%B0-%E8%89%B2%E7%95%8C-20130225-1213.jpg">
+									</span>
+								</a>
+							</p>
+							<ul class="shop-list">
+								<li class="clear-fix no-border-bottom">
+									<div class="shop-info">ç«å300åHTC A320E Desire 2012æ°æ¬¾å®åå¨æ°ç´æ¿3.5è±å¯¸</div>
+									<div class="shop-ratio low"><b>&yen;</b><em>3629.00</em></div>
+									<div class="shop-support">
+										<p>æ çç±éæ¢</p>
+										<p>æ­£è§åç¥¨</p>
+										<p>æ­£åä¿é</p>
+									</div>
+									<div class="shop-goto"><a href="#" target="_blank" class="buy">å»è´­ä¹°</a></div>
+								</li>
+							</ul>
+						</div>
+						<div class="overflow_text">
+							<span onClick="showMoreRecommandProduct()" id="showMoreRecommandProductSpan" style="cursor: pointer;" class="shang">å±å¼æ´å¤(4/17)</span>
+							<span onClick="hideMoreRecommandProduct()" id="hideMoreRecommandProductSpan" style="cursor: pointer;display:none" class="xia">æ¶èµ·å¨é¨</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--layout-wrap e-->
+		<!--footer s-->
+		<div id="footer">
+			<div id="footer-inner">
+				<div class="w980">
+					<ul class="link">
+						<li><a href="http://prod.bang5mai.com:80/o/about" target="_blank" class="item">å³äºå¸®5ä¹°</a></li>
+						<li><span class="lines">|</span></li>
+						<li><a href="http://prod.bang5mai.com:80/o/about/contact" target="_blank" class="item">èç³»æä»¬</a></li>
+						<li><span class="lines">|</span></li>
+						<li><a href="http://prod.bang5mai.com:80/o/about/business" target="_blank" class="item">åä½åå®¶</a></li>
+						<li><span class="lines">|</span></li>
+						<li><a href="http://prod.bang5mai.com:80/o/about/links" target="_blank" class="item">åæé¾æ¥</a></li>
+						<li><span class="lines">|</span></li>
+						<li><a href="http://prod.bang5mai.com:80/o/about/job" target="_blank" class="item">å å¥æä»¬</a></li>
+						<li><span class="lines">|</span></li>
+						<li><a href="#" target="_blank" class="item">ç§»å¨åºç¨</a></li>
+						<li>
+							<span class="label">å³æ³¨æä»¬</span> 
+							<a href="javascript:void(0);" class="sina-weibo"></a>
+							<a href="javascript:void(0);" class="qq-weibo"></a>
+							<a href="javascript:void(0);" class="qq-zone"></a>
+							<a href="javascript:void(0);" class="douban"></a>
+							<a href="javascript:void(0);" class="renren"></a>
+						</li>
+					</ul>
+					<p class="copyRight">CopyRight&copy;2011-2013 B5M.COM. All Rights Reserved. Powered by B5Msoft Co,Ltd. ICPè¯ï¼æ²ªICPå¤11034776å·</p>
+					<p>
+						<a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20120620142952978" target="_blank" rel="nofollow">
+							<img src="http://www.b5m.com:80/sui/images/shgs.gif" />
+						</a> 
+						<a id='___szfw_logo___' href='https://search.szfw.org/cert/l/CX20130327002357002835' target='_blank'>
+							<img src='http://www.b5m.com/sui/images/cxwz.png'>
+						</a>
+						<span style="display:none;">
+							<script type='text/javascript'>
+								(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();
+							</script>
+							<script type="text/javascript" src="http://s17.cnzz.com/stat.php?id=3865108&web_id=3865108&show=pic"></script>
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--footer e-->
+		<script src="../js/jquery-1.9.0.min.js"></script>
+		<script src="../js/details.js"></script>
+	</body>
+</html>

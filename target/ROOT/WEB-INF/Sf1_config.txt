@@ -1,0 +1,55 @@
+﻿# ====================SF1_45 ConfigFile=================
+#服务器IP
+server_ip=172.16.0.145
+#服务器用户名
+server_name=demo
+#端口
+port_num=8888
+#超时
+timeout=50000
+#关键字查询模式,可以配置为 recent(近期),realtime(实时),popular(流行) 三种之一  
+keyword_search_mode=realtime
+#各个项目之间用[;]号分隔，并且与{[collection_name]_target_fields}和{[collection_name]_fields}相对应。,默认查询的数据集是第一项
+collection_names=guoyan,国研;cnki,中国知网;wanfang,万方
+#集合对应中文名,与集合按顺序一一对应
+group_fields=
+#网页精确分组字段
+web_group_fields=Group,Group
+#检索字段
+guoyan_target_fields=Title;DATE;Group;Content;Writer;Editor
+cnki_target_fields=Title;Group;Abstract;Writer;Publish
+wanfang_target_fields=Title;Group;Content;Writer;Unit;Keyword
+ocr_target_fields=Title;Content
+#所有字段
+guoyan_fields=DOCID;Group;Url;Title;Content;Writer;Editor;DATE
+cnki_fields=DOCID;Group;Url;Url_cv;Title;Abstract;Writer;DATE
+wanfang_fields=DOCID;Group;Url;Title;Content;Writer;DATE
+ocr_fields=DOCID;Url;Title;Content;DATE;DIR
+#页面显示字段，组与组之间用[;]分号分隔，对应字段之间用[,]逗号分隔。 [field_view,field_scd];[field_view,field_scd];...
+guoyan_view_fields=Title,Title;Content,Content;Writer,Writer;DocId,DOCID;Url,Url;CreateDate,DATE;
+cnki_view_fields=Title,Title;Date,Create_date;Content,Abstract;Writer,Writer;CreateDate,DATE;Url,Url;DocId,DOCID
+wanfang_view_fields=Title,Title;Date,Create_date;Content,Content;Writer,Writer;CreateDate,DATE;Url,Url;DocId,DOCID
+ocr_view_fields=DocId,DOCID;Url,Url;Title,Title;Content,Content;CreateDate,DATE
+
+#词汇过滤字段
+filter_keywords=
+#文件类型和图片位置对应字段
+url_file_type=
+##document查询的配置
+#结果是否去重
+doc_remove_duplicated_result=true
+#等级模式ranking_model 分为:plm,bm25,kl
+doc_ranking_model=plm
+#是否记录关键字
+doc_log_keywords=true
+#分析器选项
+doc_analyzer_apply_la=true
+doc_analyzer_use_original_keyword=true
+doc_analyzer_use_synonym_extension=true
+#关键字是否高亮显示
+doc_keyowrd_highlight=true
+#单个集合返回的最大结果数
+doc_search_limit=250
+doc_search_similar_limit=100
+#设置内容只显示摘要
+doc_content_snippet=true

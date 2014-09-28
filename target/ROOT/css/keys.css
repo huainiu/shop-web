@@ -1,0 +1,170 @@
+@CHARSET "UTF-8";
+
+.seo-cont-l {
+	width: 696px;
+	float: left;
+}
+
+.seo-cont-r {
+	width: 264px;
+	float: right;
+	padding-top: 42px;
+}
+
+.seo-cont-l .crumb {
+	padding-top: 12px;
+}
+
+.seo-content {
+	border: 1px #e0e0e0 solid;
+	border-top: none;
+	margin: 2px 0 20px 0;
+	background: url("../../../images/korea/line-3.png") repeat-x scroll 0 0px;
+	padding: 20px 27px;
+}
+
+.seo-ban img {
+	background: #e5e5e5;
+	display: block;
+}
+
+.seo-content h3.keyword-tit {
+	color: #808080;
+	font-size: 18px;
+	font-family: \5FAE\8F6F\96C5\9ED1;
+	margin-top: 10px;
+	line-height: 50px;
+	border-bottom: 1px #444444 dotted;
+	font-weight: bold;
+}
+
+.seo-content ul.keyword-list {
+	margin-bottom: 20px;
+}
+
+.seo-content ul.keyword-list li {
+	width: 125px;
+	margin-right: 3px;
+	display: inline;
+	float: left;
+	font-size: 14px;
+	padding-top: 12px;
+}
+
+.seo-content ul.keyword-list li a {
+	display: block;
+	line-height: 22px;
+	padding-left: 3px;
+}
+
+.seo-content ul.keyword-list li a:hover {
+	background: #fadbdd;
+	color: #db000f;
+}
+
+.seo-ban img {
+	margin: 0 auto;
+}
+
+.seo-r-cont {
+	margin-top: 25px;
+}
+
+.seo-tit {
+	height: 23px;
+	line-height: 22px;
+	border-bottom: 1px #333333 solid;
+}
+
+.seo-tit h2 {
+	float: left;
+	font-size: 14px;
+	border-bottom: 1px #333333 solid;
+	width: 95px;
+	font-weight: bold;
+}
+
+.seo-tit span {
+	float: right;
+}
+
+.seo-r-cont img {
+	background: #e5e5e5;
+}
+
+.seo-r-cont dl.infor {
+	padding-top: 15px;
+}
+
+.seo-r-cont dl.infor dt {
+	width: 100px;
+	float: left;
+	display: inline;
+	margin-right: 10px;
+}
+
+.seo-r-cont dl.infor h3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.seo-r-cont dl.infor p {
+	line-height: 20px;
+	padding-top: 2px;
+	color: #999;
+}
+
+.seo-r-cont ul.seo-news {
+	padding-top: 5px;
+}
+
+.seo-r-cont ul.seo-news li {
+	overflow: hidden;
+	zoom: 1;
+	height: 26px;
+}
+
+.seo-r-cont ul.seo-news li em {
+	float: left;;
+	padding-top: 6px;
+	line-height: 20px;
+	width: 12px;
+	color: #ff0033;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.seo-r-cont ul.seo-news li a {
+	display: inline-block;
+	line-height: 26px;
+}
+
+.seo-tourism {
+	margin-bottom: 20px;
+}
+
+.seo-r-cont ul.seo-pic-news {
+	padding-top: 5px;
+}
+
+.seo-r-cont ul.seo-pic-news li {
+	width: 125px;
+	float: left;
+	display: inline;
+	margin-right: 6px;
+	margin-top: 4px;
+}
+
+\
+.seo-r-cont ul.seo-pic-news li a {
+	display: block;
+}
+.l{float:left;}
+.crumb { padding-top:20px;   font-family:\5FAE\8F6F\96C5\9ED1; line-height: 30px; height: 30px;  font-size:14px; border-bottom: 2px solid #000; _height:31px; _overflow: hidden; color:#666; }
+.crumb span { font-family: \5b8b\4f53; padding:0 5px; }
+.crumb strong { color: #ff0042; position: relative; height:29px; border-bottom:3px solid #ff0647; float:left; }
+.crumb.noline,.crumb.noline strong { border-bottom: none;}
+.crumb em {color: #ff0042; }
+.crumb-x{background: url("../../../images/korea/line-3.png") repeat-x scroll 0 2px; height: 4px; overflow: hidden;}
+.crumb p{ float: right;}

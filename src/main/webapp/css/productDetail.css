@@ -1,0 +1,10 @@
+﻿#J_DivItemDesc table {
+	width: 400px;
+	text-align: left;
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+#J_DivItemDesc table td {
+	width: 200px;
+}

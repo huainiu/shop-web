@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="http://staticcdn.b5m.com/static/scripts/common/jquery-1.9.1.min.js?t=${today}"></script>
+<style>
+	*{margin:0px; padding:0px;}
+</style>
+</head>
+<body>
+	<div style="text-align:center;height:600px;width:100%;">
+		<input type="button" id="update" value="更新版本号" onclick="update()" style="margin-top:400px;font-size:40px;"/>
+	</div>
+	<script>
+			function update() {
+				var url = "/memcache/update.htm";
+				$.ajax({
+					url : url,
+					type : 'POST',
+					data : {},
+					dataType : 'json',
+					success : function(result) {
+						alert(result.msg + "-----新版本号: " + result.val);
+					}
+				});
+			}	
+	</script>
+</body>
+</html>

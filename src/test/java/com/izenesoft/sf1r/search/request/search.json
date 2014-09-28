@@ -1,0 +1,57 @@
+{
+    "limit":30,
+    "conditions":[
+        
+    ],
+    "sort":[
+        
+    ],
+    "search":{
+        "group_label":[
+            
+        ],
+        "keywords":"雪地靴",
+        "ranking_model":"bm25",
+        "is_require_related":true,
+        "log_keywords":true,
+        "analyzer":{
+            "apply_la":true,
+            "use_original_keyword":false,
+            "use_synonym_extension":true
+        },
+        "in":[
+            {
+                "property":"Title"
+            }
+        ],
+        "searching_mode":{
+            "mode":"zambezi"
+        }
+        "attr_label":[{"attr_value":"","attr_name":""}]
+    },
+    "analyzer_result":true,
+    "attr":{
+        "attr_result":true,
+        "attr_top":20
+    },
+    "remove_duplicated_result":false,
+    "collection":"b5mp",
+    "offset":0,
+    "group":[
+        {
+            "range":true,
+            "property":"Price"
+        },
+        {
+            "range":false,
+            "property":"Source"
+        },
+        {
+            "range":false,
+            "property":"Category"
+        }
+    ],
+    "header":{
+        "check_time":"true"
+    }
+}

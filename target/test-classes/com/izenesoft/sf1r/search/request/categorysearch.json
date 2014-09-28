@@ -1,0 +1,37 @@
+{
+    "limit":1,
+    "conditions":[
+    	{"property":"Price","operator":">","value":["1"]}
+    ],
+    "search":{
+        "group_label":[
+            
+        ],
+        "keywords":"*",
+        "ranking_model":"bm25",
+        "is_require_related":true,
+        "log_keywords":true,
+        "analyzer":{
+            "apply_la":true,
+            "use_original_keyword":false,
+            "use_synonym_extension":true
+        }
+    },
+    "analyzer_result":false,
+    "attr":{
+        "attr_result":false,
+        "attr_top":20
+    },
+    "remove_duplicated_result":false,
+    "collection":"b5mp",
+    "offset":0,
+    "group":[
+        {
+            "range":false,
+            "property":"Category"
+        }
+    ],
+    "header":{
+        "check_time":"true"
+    }
+}

@@ -1,0 +1,129 @@
+/*rest*/
+html,body{background:#f9f9f9}
+
+.col-main,.col-sub{float:left}
+.col-main{width:100%;min-height:1px}
+.wrap-main{word-break:break-all}
+.grid-s200 .col-sub{width:200px;margin-left:-200px}
+.grid-s200 .wrap-main{margin:0 220px 0 0}
+.grid-s130 .col-sub{width:130px;margin-left:-100%}
+.grid-s130 .col-main .wrap-main{margin:0 0 0 140px}
+
+/*wrap*/
+#wrap{width:980px;margin:30px auto}
+.mod{border:1px solid #dfdfdf;background:#fff;position:relative;margin:0 0 -1px;overflow:hidden}
+.mod-hd{height:54px;line-height:54px;padding:0 20px;overflow:hidden;font-family:\5b8b\4f53}
+.mod-hd h2{float:left;color:#333;font-size:14px;font-weight:700}
+.mod-hd span{float:right;color:#666}
+.mod-hd em{color:#248bcd;padding:0 2px;font-style:normal;font-family:tahoma}
+.mod-hd strong{font-weight:400;color:#c6c6c6;padding:0 3px}
+.mod-hd a{color:#666;font-family:\5b8b\4f53}
+.mod-bd{padding:0 50px}
+
+/*商品*/
+.mod-shop{border-bottom:1px dotted #e8e8e8;padding:21px 0 20px;margin:0 0 -1px}
+.mod-shop-pic,.mod-shop-par,.mod-shop-sup,.mod-shop-goto{float:left}
+.mod-shop-par,.mod-shop-sup{margin:0 0 0 15px;display:inline}
+.mod-shop-pic{width:100px}
+.mod-shop-par{width:280px}
+.mod-shop-sup{width:165px}
+.mod-shop-goto{width:80px;text-align:center}
+
+.mod-shop-pic a{display:inline-block;vertical-align:middle;text-align:center;height:98px;width:98px;border:1px solid #ccc}
+
+
+/* Wenjie
+ .mod-shop-pic a{display:table-cell;*display:inline-block;vertical-align:middle;text-align:center;height:98px;width:98px;border:1px solid #ccc} */
+
+.mod-shop-pic span{display:block;vertical-align:middle;text-align:center;width:98px}
+.mod-shop-pic img{display:block;margin:auto;max-width:98px;max-height:98px;*width:expression(this.width>98 ? '98px':true);*height:expression(this.height>98 ? '98px':true);*margin-top:expression(49-this.height/2)}
+.mod-shop-pic a:hover{border-color:#aaa}
+
+.mod-shop-par h3{line-height:18px;font-weight:400}
+.mod-shop-par h3 a{color:#666}
+.mod-shop-par h3 a:hover{color:#e97d01}
+.mod-shop-par h3 a em{font-weight:700;font-style:normal}
+.mod-shop-par ul{color:#666;padding:8px 0 2px}
+.mod-shop-par li{float:left;width:140px}
+.mod-shop-par .arg-name{color:#666}
+.mod-shop-par .score-pannel{float:left;background:url(../images/images/star_g.png) no-repeat;width:59px;height:11px;margin:3px 8px 0 0;overflow:hidden}
+.mod-shop-par .score-pannel-on{background:url(../images/images/star_o.png) no-repeat;height:11px}
+.mod-shop-par .score-comment{float:left;color:#666;background:url(../images/images/icon_07_04_g.gif) no-repeat 100% 50%;padding-right:10px}
+.mod-shop-sup{line-height:20px;color:#666}
+.mod-shop-sup span,.mod-shop-sup b{display:block}
+.mod-shop-sup span{color:#f4772c;font:16px/1.5 \5fae\8f6f\96c5\9ed1}
+.mod-shop-sup b{color:#999;font-weight:400}
+.mod-shop-sup li img{display:block;margin:3px 0}
+.mod-shop-goto .parity,.mod-shop-goto .buy{display:block;width:70px;height:29px;line-height:27px;text-align:center;margin:0 auto 8px}
+.mod-shop-goto .parity{background:url(../images/images/btn_70_29_g.png) no-repeat;color:#666}
+.mod-shop-goto .buy{background:url(../images/images/btn_70_29_o.png) no-repeat;color:#fff}
+.mod-shop-goto a:hover{text-decoration:none;background-position:0 -29px}
+.mod-shop-goto em{color:#f00;font-style:normal}
+
+/*团购*/
+.mod-group{margin-bottom:20px}
+.mod-group h3{font-weight:700;color:#666;line-height:13px}
+.mod-group h3 a{color:#666}
+.mod-group .group-photo{display:block;width:130px;height:86px}
+.mod-group .group-photo a{display:block;width:128px;height:84px;border:1px solid #e6e6e6}
+.mod-group .group-photo a:hover{color:#e97d01;border-color:#aaa}
+.mod-group .group-photo img{display:block;width:128px;height:84px}
+.mod-group .group-explan{margin-top:6px;height:38px;line-height:19px;overflow:hidden}
+.mod-group .group-explan a{color:#666}
+.mod-group .group-explan a:hover{text-decoration:none}
+.mod-group .group-price{height:24px;line-height:24px;font-family:arial;color:#666}
+.mod-group .now{color:#f4772c;font:16px/1.5 \5fae\8f6f\96c5\9ed1}
+.mod-group .org{color:#999}
+.mod-group .org,.mod-group .dis,.mod-group .save{padding-left:5px}
+
+/*色界*/
+.mod-sj{margin:0 0 20px -30px;position:relative}
+.mod-sj li{float:left;width:106px;height:106px;margin:0 0 0 30px;display:inline;position:relative;overflow:hidden;}
+/* .mod-sj li{float:left;width:106px;height:106px;margin:0 0 0 30px;display:inline;position:relative} */
+/**
+Wenjie
+*/
+.mod-sj li a b{background:url(../images/images/bg_73_22.png) no-repeat;position:absolute;right:0;bottom:10px;width:73px;height:22px;text-align:center;font:700 12px/22px arial;color:#fff}
+*html .mod-sj li a b{background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/images/bg_73_22.png')}
+.mod-sj li a{display:block;height:104px;border:1px solid #e6e6e6;display:table-cell;*display:inline-block;vertical-align:middle;text-align:center}
+.mod-sj li span{width:104px;display:block;vertical-align:middle;text-align:center}
+
+/**
+by Wenjie
+*/
+.mod-sj li img{display:block;margin:auto;max-width:104px;min-width:51px;*width:expression(this.width>104 ? '104px':true);*height:expression(this.height>104 ? '104px':true);*margin-top:expression(52-this.height/2)}
+
+
+/* .mod-sj li img{display:block;margin:auto;max-width:104px;max-height:104px;*width:expression(this.width>104 ? '104px':true);*height:expression(this.height>104 ? '104px':true);*margin-top:expression(52-this.height/2)} */
+.mod-sj li a:hover{border-color:#aaa}
+
+/*票务*/
+.mod-ticket{margin-bottom:20px}
+.mod-ticket h3 a{font-size:14px;line-height:16px;text-decoration:underline;font-weight:400;color:#666}
+.mod-ticket h3 a:hover{color:#e97d01}
+.mod-ticket .ticket-price{line-height:22px;margin-top:3px}
+.mod-ticket .ticket-explan{height:44px;line-height:22px;overflow:hidden}
+.mod-ticket li{margin-bottom:20px}
+
+/*搜索*/
+.hd-logo{width:170px}
+.hd-search{float:left;margin-left:30px;width:560px}
+.hd-search-area .input{width:430px}
+
+/*右侧淘特价*/
+.tao{background:#fff}
+.tao-hd{background:url(../images/images/bg_200_40.png) no-repeat;height:40px;line-height:40px;padding:0 10px;text-align:right;font-family:\5b8b\4f53}
+.tao-hd a{color:#fff}
+.tao-bd{border:1px solid #e6e6e6}
+.tao-mod{border-bottom:1px solid #e6e6e6;padding-top:10px;margin-bottom:-1px}
+.tao-mod .tao-photo,.tao-mod .tao-explan,.tao-mod .tao-price{display:block;width:178px;margin:0 auto}
+.tao-mod .tao-photo img{display:block;width:178px;height:178px}
+.tao-mod .tao-explan{height:34px;line-height:17px;overflow:hidden;margin-top:7px}
+.tao-mod .tao-explan a{color:#666;font-weight:700}
+.tao-mod .tao-price{height:33px;line-height:33px;color:#999;font-family:arial}
+.tao-mod .tao-price .now{color:#ff5300;font-size:18px;font-weight:700}
+.tao-mod .tao-price .now b{font-size:12px;padding-right:1px}
+.tao-mod .tao-price .org{padding-left:5px}
+
+/*右侧广告*/
+.ad{margin-top:20px}

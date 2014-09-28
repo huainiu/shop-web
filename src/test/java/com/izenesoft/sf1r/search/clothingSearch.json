@@ -1,0 +1,31 @@
+{                                                     
+    "analyzer_result": true,                                                                         
+    "collection": "clothing",                         
+    "conditions": [
+        {"property":"Price",
+    	 "operator":">",
+    	 "value":[1]}
+    ],                                 
+    "group": [                                        
+        {                                             
+            "property": "Category",                   
+            "range": false                            
+        }                                             
+    ],                                                
+    "limit": 1,                                      
+    "offset": 0,                   
+    "remove_duplicated_result": false,                
+    "search": {                                       
+        "analyzer": {                                 
+            "apply_la": true,                         
+            "use_original_keyword": false,            
+            "use_synonym_extension": true             
+        },                                            
+        "group_label": [],                            
+        "is_require_related": true,                   
+        "keywords": "*",                           
+        "log_keywords": true,             
+        "ranking_model": "bm25"                                         
+    },                                                
+    "sort": []                                        
+}            

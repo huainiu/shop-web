@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd"
+	default-autowire="byName" default-lazy-init="false">
+
+
+	<!-- ===========================================加载Spring配置文件===================================================== -->
+	<!-- <import resource="classpath*:com/b5m/goods/**/*applicationContext-*.xml" /> -->
+	<import resource="applicationContext-promotions.xml"/>
+	<import resource="applicationContext-cache.xml"/>
+	<import resource="applicationContext-threadpool.xml"/>
+	<context:annotation-config />
+	<!-- ===========================================扫描请求的do===================================================== -->
+	<context:component-scan base-package="com.b5m.goods.*">
+		<context:include-filter type="regex" expression="com.b5m.goods.*.dao" />
+		<context:include-filter type="regex" expression="com.b5m.goods.*.service" />
+	</context:component-scan>
+	<context:property-placeholder location="classpath:com/b5m/goods/promotions/cached/config.properties" />
+	
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+		<property name="driverClass" value="${jdbc.driverClassName}" />
+		<property name="jdbcUrl" value="${jdbc.url}" />
+		<property name="properties">
+			<props>
+				<prop key="c3p0.minPoolSize">20</prop>
+				<prop key="c3p0.maxPoolSize">20</prop>
+				<prop key="c3p0.maxIdleTime">1800</prop>
+				<prop key="c3p0.acquireIncrement">2</prop>
+				<prop key="c3p0.maxStatements">0</prop>
+				<prop key="c3p0.initialPoolSize">20</prop>
+				<prop key="c3p0.idleConnectionTestPeriod">1800</prop>
+				<prop key="c3p0.acquireRetryAttempts">30</prop>
+				<prop key="c3p0.breakAfterAcquireFailure">true</prop>
+				<prop key="c3p0.testConnectionOnCheckout">true</prop>
+				<prop key="user">${jdbc.username}</prop>
+				<prop key="password">${jdbc.password}</prop>
+			</props>
+		</property>
+	</bean>
+
+</beans>

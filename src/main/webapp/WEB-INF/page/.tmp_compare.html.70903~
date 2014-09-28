@@ -1,0 +1,742 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>去比较</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css">
+		<link rel="stylesheet" type="text/css" href="../css/detail.css">
+	</head>
+
+	<body>
+		<!--plug-bar s-->
+		<div id="plug-bar" style="display:none;">
+			<div class="w980">
+				<span class="plug">
+					<!--[if !IE]><!-->
+					<a href="http://t.b5m.com/" target="_blank"><img src="../images/new_header/plug_img_24.png" alt=""></a>
+					<!--<![endif]-->
+					<!--[if IE]>
+					<a href="http://t.b5m.com/" target="_blank"><img src="../images/new_header/plug_img_08.png" alt=""></a>
+					<![endif]-->
+				</span> 
+				<a href="javascript:closed();" class="closed" title="关闭">关闭</a>
+			</div>
+		</div>
+		<!--plug-bar e-->
+
+		<!--public-bar s-->
+		<div id="public-bar">
+			<div class="w980">
+				<div class="bar-nav">
+					<ul>
+						<li><a href="#" class="items i-1"><b></b>帮5买首页</a></li>
+						<li><span class="lines"></span></li>
+						<li><a href="#" class="items i-2"><b></b>淘特价</a></li>
+						<li><span class="lines"></span></li>
+						<li><a href="#" class="items i-3"><b></b>购物导航</a></li>
+						<li><span class="lines"></span></li>
+						<li><a href="#" class="items i-4"><b></b>手机帮5买</a></li>
+						<li><span class="lines"></span></li>
+						<li><a href="#" class="items i-8"><b></b>帮5挑</a></li>
+					</ul>
+				</div>
+				<div class="bar-login">
+					<ul class="not-logged" style="display:none">
+						<li><a href="#" class="items">登录</a><a href="#" class="items">免费注册</a></li>
+						<li><a href="#" class="items">个人中心</a></li>
+						<li><a href="#" class="items">收藏本站</a></li>
+					</ul>
+					<ul class="logged">
+						<li class="per">
+							<span class="items"><em>RoseBrother123</em></span>
+							<b class="per-name"></b>
+							<ul class="per-list">
+								<li><a href="#" class="i-5"><b></b>我的B5M</a></li>
+								<li><a href="#" class="i-6"><b></b>个人资料</a></li>
+								<li><a href="#" class="i-7"><b></b>退出</a></li>
+							</ul>
+						</li>
+						<li><a href="#" class="items" style="padding-right:0;">收藏本站</a></li>
+					</ul>
+				</div>	
+			</div>
+		</div>
+		<!--public-bar e-->
+
+        <!--search s-->
+		<div class="search w980 clear-fix">
+			<!--[if !IE]><!-->
+			<div class="hd-logo">
+				<h1><img src="../images/www/logo_170_53_24.png" alt="帮5买"></h1>
+			</div>
+			<!--<![endif]-->
+			<!--[if IE]>
+			<div class="hd-logo">
+				<h1><img src="../images/www/logo_170_53_08.png" alt="帮5买"></h1>
+			</div>
+			<![endif]-->
+			<div class="hd-search">
+				<ul class="hd-search-tab">
+					<li><a href="#" class="cur">商品</a>
+						<div class="bubble">
+							<span class="b-l"><span class="b-r">9999</span></span>
+							<b class="b-edge"></b>
+						</div>
+					</li>
+					<li><span class="lines"></span></li>
+					<li><a href="#">淘特价</a>
+						<div class="bubble">
+							<span class="b-l"><span class="b-r">123</span></span>
+							<b class="b-edge"></b>
+						</div>
+					</li>
+					<li><span class="lines"></span></li>
+					<li><a href="#">逛街</a></li>
+					<li><span class="lines"></span></li>
+					<li><a href="#">色界</a></li>
+					<li><span class="lines"></span></li>
+					<li><a href="#">团购</a></li>
+					<li><span class="lines"></span></li>
+					<li><a href="#">票务</a></li>
+					<li><span class="lines"></span></li>
+					<li><a href="#">韩国馆</a></li>
+				</ul>
+
+				<div class="hd-search-area">
+					<input class="input" type="text" x-webkit-speech="" autocomplete="off"  maxlength="40" value="">
+					<label id="label">网购从这里开始 搜商品 搜商城</label>
+					<a href="javascript:void(0);" class="btn">搜索</a>
+					<b class="close">&times;</b>
+				</div>
+			</div>
+		</div>
+		<!--search e-->
+
+		<!--ad-banner s-->
+		<div class="ad-banner">
+			<a href="#" target="_blank"><img src="http://cdn.bang5mai.com/upload/hp_images/spdetail_20130415.jpg"></a>
+		</div>
+		<!--ad-banner e-->
+
+		<!--nav s-->
+		<div id="nav" class="w980">
+			<div class="nav-menu">
+				<a href="#">首页</a>
+				<span>&gt;</span>
+				<span>搜索“<em>手机</em>”</span>
+			</div>
+			<div class="nav-title">在43个商家中，找到相关商品&nbsp;<em>4757</em>&nbsp;件</div>
+		</div>
+		<!--nav e-->
+
+		<!--layout-wrap s-->
+		<div id="layout-wrap">
+			<div class="wrap">
+				<!--shop-show s-->
+				<div class="shop-show">
+					<div class="show-hd">
+						<h1>MOTOROLA/摩托罗拉 DEFY+ ME525+ Android 2.3 智能手机</h1>
+					</div>
+					<div class="show-bd clear-fix">
+						<div class="col-main">
+							<div class="main">
+								<p class="show-price">参考价<b>&yen;</b><em>4850</em>起</p>
+								<p class="trend"><strong>历史价格</strong></p>
+								<div class="show-trend">
+									<p class="show-trend-text">价格趋势<em>(近30天价格历史)</em></p>
+									<div class="show-trend-plug"></div>
+								</div>
+								<ul class="show-config clear-fix">
+									<li><span>触摸屏：电容式触屏</span></li>
+									<li><span>外观设计：直板</span></li>
+									<li><span>摄像头：500-800万像素</span></li>
+									<li><span>颜色：红色</span></li>
+								</ul>
+								<div class="score clear-fix">
+									<div class="score-pannel">
+										<div class="score-pannel-on" style="width:70%;"></div>
+									</div>
+									<div class="score-comment">4.6</div>
+									<div class="score-rate">评论2345</div>
+								</div>
+								<div class="show-tag clear-fix" id="J_tag">
+									<a href="javascript:;">性价比很高</a>
+									<a href="javascript:;">行货正品</a>
+									<a href="javascript:;">外观靓丽</a>
+									<a href="javascript:;">电池一般</a>
+									<a href="javascript:;">系统不流畅</a>
+									<a href="javascript:;">性价比很高</a>
+									<a href="javascript:;">行货正品</a>
+									<a href="javascript:;">外观靓丽</a>
+									<a href="javascript:;">电池一般</a>
+									<a href="javascript:;">系统不流畅</a>
+								</div>
+								<div class="btn-wrap clear-fix"><a class="go-compare fr" href="#"><span>收藏</span></a><a class="go-buy fl" href="#">去购买</a></div>
+								<a class="b5t-app" href="#"><img src="../images/www/shenqi.png" alt="实时比价-帮5淘"></a>
+							</div>
+						</div>
+						<div class="col-sub">
+							<div class="show-pic" id="show-pic">
+								<div class="show-area">
+									<ul class="show-pic-list">
+										<li class="item">
+											<p class="geo-pic">
+												<span>
+													<img src="http://img1.icson.com/product/mm/21/106/21-106-12601.jpg" alt="">
+												</span>
+											</p>
+										</li>
+										<li class="item">
+											<p class="geo-pic">
+												<span>
+													<img src="http://img1.icson.com/product/mm/21/106/21-106-12601-01.jpg" alt="">
+												</span>
+											</p>
+										</li>
+										<li class="item">
+											<p class="geo-pic">
+												<span>
+													<img src="http://img1.icson.com/product/mm/21/106/21-106-12601-02.jpg" alt="">
+												</span>
+											</p>
+										</li>
+										<li class="item">
+											<p class="geo-pic">
+												<span>
+													<img src="http://img1.icson.com/product/mm/21/106/21-106-12601-03.jpg" alt="">
+												</span>
+											</p>
+										</li>
+									</ul>
+								</div>
+								<a id="prev" href="javascript:;">&lt;</a>
+								<a id="next" href="javascript:;">&gt;</a>
+								<span id="pic-num"></span>
+							</div>							
+						</div>
+					</div>
+				</div>
+				<!--shop-show e-->
+				<!--tab s-->
+				<div class="tab">
+					<div class="tab-hd" id="J_fixed">
+						<ul>
+							<li class="cur">全部商家(34)</li>
+							<li>详情参数</li>
+							<li>评论(52)</li>
+							<li>价格趋势</li>
+						</ul>
+					</div>
+					<div class="tab-bd">
+						<!--全部商家 s-->
+						<div class="tab-box" style="display:block;">
+							<!--筛选 s-->
+							<div class="tab-filter">
+								<ul class="shop-seq-item clear-fix">
+									<li class="first"><a href="#">默认</a></li>
+									<li><a href="#">最新</a></li>
+									<li><a href="#">好评</a></li>
+									<li class="last cur"><a href="#">价格<img src="../images/www/arr_up_07_08.gif"></a></li>
+								</ul>
+							</div>
+							<!--筛选 e-->
+							<!--商家 s-->
+							<div class="tab-shop clear-fix">
+								<div class="tab-shop-item clear-fix">
+									<p class="shop-logo">
+										<a href="#" target="_blank" class="geo-pic">
+											<span>
+												<img src="http://cdn.bang5mai.com/upload/produceImgDir/2012/09/29/769d48db-47d7-4c27-baca-a2f05c10f0af.jpg">
+											</span>
+										</a>
+									</p>
+									<ul class="shop-list">
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">立减300元HTC A320E Desire 2012新款安卓全新直板3.5英寸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>无理由退换</p>
+												<p>正规发票</p>
+												<p>正品保障</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">去购物</a></div>
+										</li>
+									</ul>
+								</div>
+								<div class="tab-shop-item clear-fix">
+									<p class="shop-logo">
+										<a href="#" target="_blank" class="geo-pic">
+											<span>
+												<img src="http://cdn.bang5mai.com/upload/produceImgDir/2012/09/29/d6a964c4-9376-4fc3-8ae4-f91938f9182f.jpg">
+											</span>
+										</a>
+									</p>
+									<ul class="shop-list">
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">立减300元HTC A320E Desire 2012新款安卓全新直板3.5英寸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>无理由退换</p>
+												<p>正规发票</p>
+												<p>正品保障</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">去购物</a></div>
+										</li>
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">立减300元HTC A320E Desire 2012新款安卓全新直板3.5英寸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>无理由退换</p>
+												<p>正规发票</p>
+												<p>正品保障</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">去购物</a></div>
+										</li>
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">立减300元HTC A320E Desire 2012新款安卓全新直板3.5英寸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>无理由退换</p>
+												<p>正规发票</p>
+												<p>正品保障</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">去购物</a></div>
+										</li>
+									</ul>
+									<div class="opt open"><a href="javascript:void(0);">展开其余3件商品</a></div>
+								</div>
+								<div class="tab-shop-item clear-fix">
+									<p class="shop-logo">
+										<a href="#" target="_blank" class="geo-pic">
+											<span>
+												<img src="http://cdn.bang5mai.com/upload/produceImgDir/2012/09/29/d6a964c4-9376-4fc3-8ae4-f91938f9182f.jpg">
+											</span>
+										</a>
+									</p>
+									<ul class="shop-list">
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">立减300元HTC A320E Desire 2012新款安卓全新直板3.5英寸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>无理由退换</p>
+												<p>正规发票</p>
+												<p>正品保障</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">去购物</a></div>
+										</li>
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">立减300元HTC A320E Desire 2012新款安卓全新直板3.5英寸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>无理由退换</p>
+												<p>正规发票</p>
+												<p>正品保障</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">去购物</a></div>
+										</li>
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">立减300元HTC A320E Desire 2012新款安卓全新直板3.5英寸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>无理由退换</p>
+												<p>正规发票</p>
+												<p>正品保障</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">去购物</a></div>
+										</li>
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">立减300元HTC A320E Desire 2012新款安卓全新直板3.5英寸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>无理由退换</p>
+												<p>正规发票</p>
+												<p>正品保障</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">去购物</a></div>
+										</li>
+										<li class="clear-fix">
+											<div class="shop-info"><img class="goods-pic" src="http://placehold.it/70x70" alt=""><div class="cell">立减300元HTC A320E Desire 2012新款安卓全新直板3.5英寸</div></div>
+											<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+											<div class="shop-support">
+												<p>无理由退换</p>
+												<p>正规发票</p>
+												<p>正品保障</p>
+											</div>
+											<div class="shop-goto btn-wrap"><a class="go-buy fl" href="#">去购物</a></div>
+										</li>
+									</ul>
+									<div class="opt"><a href="javascript:void(0);">展开其余3件商品</a></div>
+								</div>
+							</div>
+							<!--商家 e-->
+							<!--分页 s-->
+							<div class="detail-page">
+								<table width="100%">
+									<tbody>
+										<tr>
+											<td align="center">
+												<div class="page clear-fix">
+												<span class="all">共10页</span>
+												<a class="prev" href="javascript:void(0);">上一页</a>
+												<a href="javascript:void(0);">1</a>
+												<span>...</span>
+												<a href="javascript:void(0);">3</a>
+												<a href="javascript:void(0);">4</a>
+												<span class="cur">5</span>
+												<a href="javascript:void(0);">6</a>
+												<a href="javascript:void(0);">7</a>
+												<span>...</span>
+												<a href="javascript:void(0);">10</a>
+												<a class="next" href="javascript:void(0);">下一页</a>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>							
+							<!--分页 e-->
+						</div>
+						<!--全部商家 e-->
+						<!--详情参数 s-->
+						<div class="tab-box">
+							<table width="100%" class="details-parameters">
+								<thead>
+									<tr>
+										<td colspan="2">基本参数</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>外观设计</th>
+										<td>直板</td>
+									</tr>
+									<tr>
+										<th>屏幕分辨率</th>
+										<td>960*540</td>
+									</tr>
+									<tr>
+										<th>摄像头</th>
+										<td>500-800万像数</td>
+									</tr>
+									<tr>
+										<th>品牌</th>
+										<td>APPLE</td>
+									</tr>
+									<tr>
+										<th>上市时间</th>
+										<td>2011年</td>
+									</tr>
+									<tr>
+										<th>屏幕尺寸</th>
+										<td>2-5英寸</td>
+									</tr>
+									<tr>
+										<th>操作系统</th>
+										<td>IOS</td>
+									</tr>
+									<tr>
+										<th>型号</th>
+										<td>iphone 4s</td>
+									</tr>
+									<tr>
+										<th>容量</th>
+										<td>16G</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!--详情参数 e-->
+						<!--评论 s-->
+						<div class="tab-box">
+							<!--点评 s-->
+							<div class="user-comment">
+								<div class="user-comment-hd">
+									<h4>点评<em>(1603)</em></h4>
+								</div>
+								<div class="user-comment-bd">
+									<div class="comment-num">
+										<p class="all">综合评分(满分5.0)</p>
+										<p class="cur"><strong>4.7</strong>分</p>
+										<p class="num"><span>共评论(16303)条</span>有效评分(10495)条</p>
+									</div>
+									<ul class="comment-star">
+										<li>
+											<label>5分：</label>
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+										</li>
+										<li>
+											<label>4分：</label>
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+										</li>
+										<li>
+											<label>3分：</label>
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+										</li>
+										<li>
+											<label>2分：</label>
+											<img src="../images/www/star10.gif" alt="">
+											<img src="../images/www/star10.gif" alt="">
+										</li>
+										<li>
+											<label>1分：</label>
+											<img src="../images/www/star10.gif" alt="">
+										</li>
+									</ul>
+									<ul class="comment-result">
+										<li>82% 的人认为非常棒</li>
+										<li>14% 的人推荐</li>
+										<li>3% 的人认为一般</li>
+										<li>82% 的人认为非常棒</li>
+										<li>82% 的人认为非常棒</li>
+									</ul>
+								</div>
+							</div>
+							<!--点评 e-->
+							<!--大家怎么说 s-->
+							<div class="shop-show tag">
+								<h2>大家都怎么说：</h2>
+								<div class="show-tag clear-fix">
+									<a href="javascript:;">性价比很高</a>
+									<a href="javascript:;">行货正品</a>
+									<a href="javascript:;">外观靓丽</a>
+									<a href="javascript:;">电池一般</a>
+									<a href="javascript:;">系统不流畅</a>
+								</div>
+							</div>
+							<!--大家怎么说 e-->
+							<!--已选标签 s-->
+							<div class="shop-show has-tag clear-fix">
+								<h2>已选标签：</h2>
+								<div class="show-tag clear-fix">
+								</div>
+							</div>
+							<!--已选标签 e-->
+							<!--评论 s-->
+							<div class="shop-comments">
+								<ul>
+									<li>
+										<p class="hd">
+											<a href="#">小丸子</a>
+											<span>来自京东商城</span>
+											<ins>今天12:25</ins>
+										</p>
+										<p class="bd">但是质量很好，显示器分辨率不错的，试了一下视频播放，感觉很舒服，硬盘读写那叫一个快啊，音箱音质很不错，又去买了一积极分子只 上网很快，待机时间也很好，真是一分钱一分货啊，呵呵~</p>
+									</li>
+									<li>
+										<p class="hd">
+											<a href="#">小丸子</a>
+											<span>来自京东商城</span>
+											<ins>今天12:25</ins>
+										</p>
+										<p class="bd">但是质量很好，显示器分辨率不错的，试了一下视频播放，感觉很舒服，硬盘读写那叫一个快啊，音箱音质很不错，又去买了一积极分子只 上网很快，待机时间也很好，真是一分钱一分货啊，呵呵~</p>
+									</li>
+									<li>
+										<p class="hd">
+											<a href="#">小丸子</a>
+											<span>来自京东商城</span>
+											<ins>今天12:25</ins>
+										</p>
+										<p class="bd">但是质量很好，显示器分辨率不错的，试了一下视频播放，感觉很舒服，硬盘读写那叫一个快啊，音箱音质很不错，又去买了一积极分子只 上网很快，待机时间也很好，真是一分钱一分货啊，呵呵~</p>
+									</li>
+								</ul>
+							</div>
+							<!--评论 e-->							
+						</div>
+						<!--评论 e-->
+						<!--价格趋势 s-->
+						<div class="tab-box">
+							<div>Flash插件在此</div>
+						</div>
+						<!--价格趋势 e-->
+					</div>
+				</div>
+				<!--tab e-->
+				<!--大家怎么说 s-->
+				<div class="shop-show tag">
+					<h2>大家都怎么说：</h2>
+					<div class="show-tag clear-fix">
+						<a href="javascript:;">性价比很高</a>
+						<a href="javascript:;">行货正品</a>
+						<a href="javascript:;">外观靓丽</a>
+						<a href="javascript:;">电池一般</a>
+						<a href="javascript:;">系统不流畅</a>
+					</div>
+				</div>
+				<!--大家怎么说 e-->
+				<!--已选标签 s-->
+				<div class="shop-show has-tag clear-fix">
+					<h2>已选标签：</h2>
+					<div class="show-tag clear-fix">
+					</div>
+				</div>
+				<!--已选标签 e-->
+				<!--评论 s-->
+				<div class="shop-comments">
+					<ul>
+						<li>
+							<p class="hd">
+								<a href="javascript:;">小丸子</a>
+								<span>来自京东商城</span>
+								<ins>今天12:25</ins>
+							</p>
+							<p class="bd">但是质量很好，显示器分辨率不错的，试了一下视频播放，感觉很舒服，硬盘读写那叫一个快啊，音箱音质很不错，又去买了一积极分子只 上网很快，待机时间也很好，真是一分钱一分货啊，呵呵~</p>
+						</li>
+						<li>
+							<p class="hd">
+								<a href="javascript:;">小丸子</a>
+								<span>来自京东商城</span>
+								<ins>今天12:25</ins>
+							</p>
+							<p class="bd">但是质量很好，显示器分辨率不错的，试了一下视频播放，感觉很舒服，硬盘读写那叫一个快啊，音箱音质很不错，又去买了一积极分子只 上网很快，待机时间也很好，真是一分钱一分货啊，呵呵~</p>
+						</li>
+						<li>
+							<p class="hd">
+								<a href="javascript:;">小丸子</a>
+								<span>来自京东商城</span>
+								<ins>今天12:25</ins>
+							</p>
+							<p class="bd">但是质量很好，显示器分辨率不错的，试了一下视频播放，感觉很舒服，硬盘读写那叫一个快啊，音箱音质很不错，又去买了一积极分子只 上网很快，待机时间也很好，真是一分钱一分货啊，呵呵~</p>
+						</li>
+					</ul>
+				</div>
+				<!--评论 e-->
+			</div>
+			<div class="wrap">
+				<div class="shop-mod">
+					<h2>相关商品</h2>
+					<ul class="shop-mod-hd">
+						<li class="w1">商品</li>
+						<li class="w2">价格</li>
+						<li class="w3">服务保障</li>
+						<li class="w4">操作</li>
+					</ul>
+					<div class="tab-shop clear-fix">
+						<div class="tab-shop-item clear-fix">
+							<p class="shop-logo spic">
+								<a href="#" target="_blank" class="geo-pic">
+									<span>
+										<img src="http://img.b5m.com/image/T1hybTBTJv1RCvBVdK/222x230/100/%E5%B8%AE5%E4%B9%B0-%E8%89%B2%E7%95%8C-20130225-1213.jpg">
+									</span>
+								</a>
+							</p>
+							<ul class="shop-list">
+								<li class="clear-fix no-border-bottom">
+									<div class="shop-info">立减300元HTC A320E Desire 2012新款安卓全新直板3.5英寸</div>
+									<div class="shop-ratio flat"><b>&yen;</b><em>3629.00</em></div>
+									<div class="shop-support">
+										<p>无理由退换</p>
+										<p>正规发票</p>
+										<p>正品保障</p>
+									</div>
+									<div class="shop-goto"><a href="#" target="_blank" class="buy">去购买</a></div>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-shop-item clear-fix">
+							<p class="shop-logo spic">
+								<a href="#" target="_blank" class="geo-pic">
+									<span>
+										<img src="http://img.b5m.com/image/T1hybTBTJv1RCvBVdK/222x230/100/%E5%B8%AE5%E4%B9%B0-%E8%89%B2%E7%95%8C-20130225-1213.jpg">
+									</span>
+								</a>
+							</p>
+							<ul class="shop-list">
+								<li class="clear-fix no-border-bottom">
+									<div class="shop-info">立减300元HTC A320E Desire 2012新款安卓全新直板3.5英寸</div>
+									<div class="shop-ratio high"><b>&yen;</b><em>3629.00</em></div>
+									<div class="shop-support">
+										<p>无理由退换</p>
+										<p>正规发票</p>
+										<p>正品保障</p>
+									</div>
+									<div class="shop-goto"><a href="#" target="_blank" class="buy">去购买</a></div>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-shop-item clear-fix">
+							<p class="shop-logo spic">
+								<a href="#" target="_blank" class="geo-pic">
+									<span>
+										<img src="http://img.b5m.com/image/T1hybTBTJv1RCvBVdK/222x230/100/%E5%B8%AE5%E4%B9%B0-%E8%89%B2%E7%95%8C-20130225-1213.jpg">
+									</span>
+								</a>
+							</p>
+							<ul class="shop-list">
+								<li class="clear-fix no-border-bottom">
+									<div class="shop-info">立减300元HTC A320E Desire 2012新款安卓全新直板3.5英寸</div>
+									<div class="shop-ratio low"><b>&yen;</b><em>3629.00</em></div>
+									<div class="shop-support">
+										<p>无理由退换</p>
+										<p>正规发票</p>
+										<p>正品保障</p>
+									</div>
+									<div class="shop-goto"><a href="#" target="_blank" class="buy">去购买</a></div>
+								</li>
+							</ul>
+						</div>
+						<div class="overflow_text">
+							<span onClick="showMoreRecommandProduct()" id="showMoreRecommandProductSpan" style="cursor: pointer;" class="shang">展开更多(4/17)</span>
+							<span onClick="hideMoreRecommandProduct()" id="hideMoreRecommandProductSpan" style="cursor: pointer;display:none" class="xia">收起全部</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--layout-wrap e-->
+		<!--footer s-->
+		<div id="footer">
+			<div id="footer-inner">
+				<div class="w980">
+					<ul class="link">
+						<li><a href="http://prod.bang5mai.com:80/o/about" target="_blank" class="item">关于帮5买</a></li>
+						<li><span class="lines">|</span></li>
+						<li><a href="http://prod.bang5mai.com:80/o/about/contact" target="_blank" class="item">联系我们</a></li>
+						<li><span class="lines">|</span></li>
+						<li><a href="http://prod.bang5mai.com:80/o/about/business" target="_blank" class="item">合作商家</a></li>
+						<li><span class="lines">|</span></li>
+						<li><a href="http://prod.bang5mai.com:80/o/about/links" target="_blank" class="item">友情链接</a></li>
+						<li><span class="lines">|</span></li>
+						<li><a href="http://prod.bang5mai.com:80/o/about/job" target="_blank" class="item">加入我们</a></li>
+						<li><span class="lines">|</span></li>
+						<li><a href="#" target="_blank" class="item">移动应用</a></li>
+						<li>
+							<span class="label">关注我们</span> 
+							<a href="javascript:void(0);" class="sina-weibo"></a>
+							<a href="javascript:void(0);" class="qq-weibo"></a>
+							<a href="javascript:void(0);" class="qq-zone"></a>
+							<a href="javascript:void(0);" class="douban"></a>
+							<a href="javascript:void(0);" class="renren"></a>
+						</li>
+					</ul>
+					<p class="copyRight">CopyRight&copy;2011-2013 B5M.COM. All Rights Reserved. Powered by B5Msoft Co,Ltd. ICP证：沪ICP备11034776号</p>
+					<p>
+						<a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20120620142952978" target="_blank" rel="nofollow">
+							<img src="http://www.b5m.com:80/sui/images/shgs.gif" />
+						</a> 
+						<a id='___szfw_logo___' href='https://search.szfw.org/cert/l/CX20130327002357002835' target='_blank'>
+							<img src='http://www.b5m.com/sui/images/cxwz.png'>
+						</a>
+						<span style="display:none;">
+							<script type='text/javascript'>
+								(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();
+							</script>
+							<script type="text/javascript" src="http://s17.cnzz.com/stat.php?id=3865108&web_id=3865108&show=pic"></script>
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--footer e-->
+		<script src="../js/jquery-1.9.0.min.js"></script>
+		<script src="../js/details.js"></script>
+	</body>
+</html>

@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<base href="http://www.b5m.com/o/" />
+		<meta name="keywords" content="关于我们、市场合作、品牌推广、购物搜索、购物比价、购物分享、帮5买" />
+		<meta name="description" content="帮5买官方网站,轻松发现，轻松选择,合作帮5买,最精准的购物比价平台。" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+	<meta name="title" content="友情链接 - 帮5买 - 轻松发现,轻松选择！" />
+
+
+
+	<meta name="keywords" content="，B5M，帮5买，帮我买，帮5买官方网站，比价，购物，尽在帮5买网，商务网站" />
+
+<meta name="description" content="帮5买，一站式购物入口，为您提供专业的比价购物搜索服务; 提供互联网最新最全的精彩购物活动，打折促销信息；团购网站大全信息。为了让您作出最精明的购物决策，我们一直在努力。"/> 
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache"/>
+<meta http-equiv="expires" content="0"/>
+
+
+	<title>友情链接&nbsp;-&nbsp;帮5买&nbsp;-&nbsp;轻松发现,轻松选择！</title>
+
+<link rel="shortcut icon" href="favicon.ico?t=20131011144840" type="image/x-ion" />
+
+
+		<script type="text/javascript" src="common/js/jquery-1.5.2.min.js"></script>
+		<script src="common/js/jquery.cookie.js" type="text/javascript"></script>
+		<script src="sui/js/common.js?t=20131011144840" type="text/javascript"></script>
+	</head>
+
+<body>
+
+
+
+
+
+
+
+<link href="http://old.b5m.com/sui/css/b5m.css?t=20131011144840" type="text/css" rel="stylesheet" />
+<link href="http://old.b5m.com/sui/css/share.css?t=20131011144840" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="http://old.b5m.com/css/new_header.css?t=20131011144840">
+<script type="text/javascript" src="http://old.b5m.com/common/js/waterfall.interactive.js?t=20131011144840"></script>
+
+
+
+
+
+
+<script type="text/javascript" src="http://staticcdn.b5m.com/static/scripts/common/jquery-1.9.1.min.js?t="></script>
+<link rel="stylesheet" href="http://staticcdn.b5m.com/static/css/common/common.css">
+<link rel="stylesheet" href="http://staticcdn.b5m.com/static/css/www/www.css" />
+<style>
+   .header .list-h a:hover{
+   	text-decoration:none;
+   }	
+   .header-search-content a:hover{
+   	text-decoration:none;
+        color:#673700;
+   }
+</style>
+<script type="text/javascript">
+function AddFavorite(){
+	var sURL=window.location;
+	var sTitle=document.title;
+    try{
+        window.external.addFavorite(sURL, sTitle);
+    }catch (e){
+        try{
+            window.sidebar.addPanel(sTitle, sURL, "");
+        }catch (e){
+            alert("您的浏览器不支持此操作,PC用户请使用\"Ctrl+D\"、Mac用户请使用\"Command+D\"进行添加!");
+        }}
+};
+$(function(){
+        jQuery.cookie = function(name, value, options) {
+    if (typeof value != 'undefined') {
+        options = options || {};
+        if (value === null) {
+            value = '';
+            options.expires = -1;
+        }
+        var expires = '';
+        if (options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+            var date;
+            if (typeof options.expires == 'number') {
+                date = new Date();
+                date.setTime(date.getTime() + (options.expires * 24 * 60 * 60 * 1000));
+            } else {
+                date = options.expires;
+            }
+            expires = '; expires=' + date.toUTCString(); 
+        }
+        var path = options.path ? '; path=' + options.path : '';
+        var domain = options.domain ? '; domain=' + options.domain : '';
+        var secure = options.secure ? '; secure' : '';
+        document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+    } else {
+        var cookieValue = null;
+        if (document.cookie && document.cookie != '') {
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = jQuery.trim(cookies[i]);
+                if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+};
+	if($.cookie('login') && $.cookie('login') == 'true'){
+		$("#showname").text(decodeURIComponent($.cookie("showname")));
+		$(".topbar-user").addClass("topbar-user-login");
+		$(".login").show();
+		$(".nologin").hide();
+	}else{
+		$(".topbar-user").removeClass("topbar-user-login");
+		$(".login").hide();
+		$(".nologin").show();
+	}
+})
+</script>
+<script type="text/javascript" src="http://staticcdn.b5m.com/static/scripts/common/common.js"></script>
+<script type="text/javascript" src="http://www1.prod.bang5mai.com:80/js/js/suiHeader.js?t=20130822141031"></script>
+<script type="text/javascript" src="http://staticcdn.b5m.com/static/scripts/www/www.js"></script>
+
+
+<div class="topbar">
+	<div class="topbar-inner">
+		<div class="topbar-nav">
+			<a class="home" href="http://www.b5m.com">帮5买首页</a>
+			<span class="line"></span>
+			<a class="buy" href="http://hao.b5m.com">购物导航</a>
+			<span class="line"></span>
+			<a class="tao" href="http://t.b5m.com">帮5淘</a>
+			<span class="line"></span>
+			<a class="app" href="http://app.b5m.com">手机帮5买</a>
+		</div>
+		<div class="topbar-user">
+			<span class="hi login">你好，</span>
+			<span class="user login" data-hover="user-hover">
+				<a href="http://ucenter.b5m.com" target="_blank" id="showname"></a> <em class="arr"></em>
+				<span class="user-link">
+					<a href="http://ucenter.b5m.com/user/integral/integral.htm" target="_blank">积分</a>
+					<a href="http://ucenter.b5m.com/user/user/logout.htm" target="_self">退出</a>
+				</span>
+			</span>
+			<span class="line login"></span>
+			<a href="javascript:void(0)" target="_self" class="login" id="J_addFav">收藏本站</a>
+
+			<a href="http://ucenter.b5m.com/forward.htm?method=/user/user/login" target="_self" class="nologin">登录</a>
+			<a href="http://ucenter.b5m.com/forward.htm?method=/user/info/register" class="nologin" target="_self">免费注册</a>
+			<a href="javascript:void(0)" rel="fav" target="_self" class="nologin">收藏本站</a>
+			<span class="line"></span>
+			<div class="topbar-more" data-hover="topbar-more-hover">
+				<a href="javascript:void(0)" target="_self" class="more">
+					网站导航
+					<em class="arr"></em>
+				</a>
+				<div class="topbar-prod">
+					<div class="item">
+                                           <a href="http://www.b5m.com" target="_blank">帮5买</a>
+						<a href="http://tejia.b5m.com" target="_blank">淘特价</a>
+						<a href="http://you.b5m.com" target="_blank">帮5游</a>
+						<a href="http://guang.b5m.com" target="_blank">帮5逛</a>
+						<a href="http://korea.b5m.com" target="_blank">韩国馆</a>
+						<a href="http://tuan.b5m.com" target="_blank">帮5团</a>
+					</div>
+					<div class="item">
+						<a class="h_icon b5t" href="http://t.b5m.com/" target="_blank">帮5淘</a>
+						<a class="h_icon gwdh" href="http://hao.b5m.com/" target="_blank">购物导航</a>
+						<a class="h_icon sjb5m" href="http://app.b5m.com/" target="_blank">手机帮5买</a>
+					</div>
+					<div class="item weixin">
+						<img alt="" src="http://cdn.bang5mai.com/upload/web/public/app/header/images/new_header/weixin_b5m.png">
+						<span>扫二维码，加帮5买微信好友</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /after login -->
+	</div>
+</div>
+<div class="header">
+	<div class="w980" style="margin:0 auto;width:982px;">
+		<h1>
+			<a href="http://www.b5m.com">
+				<img src="http://staticcdn.b5m.com/static/images/www/logo.png" alt="#"></a>
+		</h1>
+                <ul class="list-h clear-fix">
+			<li class="cur">
+				<a href="http://www.b5m.com">首页</a>
+			</li>
+			<li>
+				<a href="http://zdm.b5m.com">值得买</a>
+			</li>
+			<li>
+				<a href="http://tejia.b5m.com">淘特价</a>
+			</li>
+			<li>
+				<a href="http://korea.b5m.com/">韩国馆</a> <i class="new">新产品</i>
+			</li>
+			<li>
+				<a href="http://you.b5m.com">帮5游</a>
+			</li>
+			<li>
+				<a href="http://tuan.b5m.com">帮5团</a>
+			</li>
+			<li>
+				<a href="http://guang.b5m.com">帮5逛</a><i class="new">新产品</i>
+			</li>
+			<li>
+				<a href="http://she.b5m.com/">帮社区</a>
+			</li>
+			<li>
+				<a href="http://t.b5m.com/">帮5淘</a>
+			</li>
+		</ul>
+	</div>
+	<div class="search-bar">
+		<div class="w980" style="width:980px;margin:0 auto;">
+			<div class="all-cate all-cate-none" style="background:url('/o/images/www/gotosearch.png') no-repeat scroll 20px 12px #EB7E00;">
+				
+			</div>
+			<div class="search-tools" style="position: relative;">
+                                <div class="search-form">
+					<span class="header-search-content">
+						<label for="帮5搜">搜索从这里开始</label>
+                                                <input type="text" class="header-search-key J_search J_autofill" x-webkit-speech="" value="" placeholder="快速搜索全网旅游特价商品，景点、酒店"><a href="javascript:void(0);" onclick="doSubmit()" class="header-rearch-submit">帮5搜</a>
+					</span><span class="header-rearch-hotkey">热门搜索:<a href="http://www1.b5m.com/search/s/___image________________裙子.html" target="_blank">裙子</a><a href="http://www1.b5m.com/search/s/___image________________苹果.html" target="_blank">苹果</a><a href="http://www1.b5m.com/search/s/___image________________防晒霜.html" target="_blank">防晒霜</a>						
+					</span>
+					<input type="hidden" id="hdnTarget" value="http://www1.b5m.com/search/s/___image________________%23keyword%23.html">
+				</div>
+				<div id="downList" style="top: 41px; width: 429px;">
+					<div class="downList">
+						<ul id="list">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<input autocomplete="off" type="hidden" id="hdnCurIndex" />
+<script type="text/javascript" src="http://staticcdn.b5m.com/static/scripts/common/autoFill.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('.J_autofill').autoFill('http://www1.prod.bang5mai.com/allAutoFill.htm','b5mo');
+});
+</script> 
+
+<!--头部结束-->
+<link type="text/css" rel="stylesheet" href="sui/jsp/aboutus/naboutus.css?t=20131011144840" />
+<link type="text/css" rel="stylesheet" href="http://staticcdn.b5m.com/static/css/about/style.css" />
+
+<body>
+<div class="widewrap clearfix" id="widewrap_div">
+	<div class="sidemenu">
+    	<div id="box_menu">
+        	<!--fS-->
+        	<div class="float clearfix">
+  				
+					
+				
+
+
+
+
+<div class="box_menu">
+	<div class="sidemenu_title">
+		<h2>
+			关于我们
+		</h2>
+	</div>
+	<div class="sidemenu_sub">
+		<ul>
+			<li>
+				<a href="about/us"  >了解我们<b><b></b>
+				</b>
+				</a>
+			</li>
+			<li>
+				<a href="about/team"  >5们的团队<b><b></b>
+				</b>
+				</a>
+			</li>
+			<li>
+				<a href="about/news"  >媒体报道<b><b></b>
+				</b>
+				</a>
+			</li>
+			<li>
+				<a href="about/job"  >加入我们<b><b></b>
+				</b>
+				</a>
+			</li>
+			<li>
+				<a href="about/contact"  >联系我们<b><b></b>
+				</b>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="box_menu">
+	<div class="sidemenu_title">
+		<h2>
+			帮5买新手
+		</h2>
+	</div>
+	<div class="sidemenu_sub">
+		<ul>
+			<li>
+				<a href="about/help"  >5来帮你<b><b></b>
+				</b>
+				</a>
+			</li>
+			<li>
+				<a href="about/message"  >5要留言<b><b></b>
+				</b>
+				</a>
+			</li>
+			<li>
+				<a href="about/privacy"  >隐私策略<b><b></b>
+				</b>
+				</a>
+			</li>
+			<!-- 
+			<li>
+				<a href="about/sitemap"  >网站地图<b><b></b>
+				</b>
+				</a>
+			</li>
+			 -->
+		</ul>
+	</div>
+</div>
+
+<div class="box_menu">
+	<div class="sidemenu_title">
+		<h2>
+			合作帮5买
+		</h2>
+	</div>
+	<div class="sidemenu_sub">
+		<ul>
+			<li>
+				<a href="about/partner"  >合作伙伴<b><b></b>
+				</b>
+				</a>
+			</li>
+			<li>
+				<a href="about/business"  >商家合作<b><b></b>
+				</b>
+				</a>
+			</li>
+			<li>
+				<a href="about/market"  >市场合作<b><b></b>
+				</b>
+				</a>
+			</li>
+                        <li>
+				<a href="about/adsell"  >广告销售<b><b></b>
+				</b>
+				</a>
+			</li>
+			<li>
+				<a href="about/links" class="active" >友情链接<b><b></b>
+				</b>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+        	</div>
+            <!--fE-->
+        </div>
+	</div>
+	
+	<div class="maincon">
+		<div class="toptltpic"><img src="sui/jsp/aboutus/images/pictlt9.jpg" width="955" height="92" /><div class="topbeautibg"></div></div>
+		<div class="conbtmbg">
+			<div class="conbox">
+				<div class="content">
+					<h3>网站优势：</h3>
+					<p>帮5买拥有中国最先进、最精准、最公正的独立购物搜索引擎，目前已有商品、团购、票务、旅游的垂直搜索，未来还将增加保险、贷款、房产等各领域的垂直搜索。
+帮5买已收录超过3亿条商品数据，数据来自6000多家B2C网站、200多家团购网站等。 </p>
+    				<p>PageRank值为4，ALEXA排名1455，中国排名121。每天500万以上的流量。除了权重的传递，还能带来高质量且精准的购物流量。绝对是购物网站首选！</p>
+				</div>
+				<div class="content">
+					<div class="code">
+						<h3>文字链接代码：</h3>
+						<textarea name="" id="" cols="30" rows="10"><a href="http://www.b5m.com" target="_blank" title="帮5买比价网">比价网
+</a></textarea>
+					</div>
+					<div class="list">
+						<h3>申请要求：</h3>
+						<ul>
+							<li>1. 各大搜索引擎收录正常，无不良内容，拒绝色情、反动、有恶意代码、没有自主域名、设计低劣的网站，快照要求在1星期以内。</li>
+							<li>2. 首页链接pr值需达到4以上，alexa世界排名为5000以内；</li>
+							<li>3. 各频道页友情链接咱不作要求，内容优良、定期更新即可；</li>
+							<li>4. 内页友链要求搜索引擎收录即可；</li>
+							<li>5. 图片类链接仅限于放在网站内页；</li>
+							<li>6. 申请友链直接说明来意，附上网站。</li>
+						</ul>
+					</div>
+					<div class="code">
+						<h3>图片链接代码：</h3>
+						<textarea name="" id="" cols="30" rows="10"><a href="http://www.b5m.com" target="_blank"><img src="http://staticcd
+n.b5m.com/static/images/www/logo.png" width="88" height="31" alt="帮5买
+比价网" border="0" /></a>
+</textarea>
+					</div>
+					<div class="list">
+						<h3>联系方式：</h3>
+						<ul>
+							<li><strong>QQ：</strong>1990156762</li>
+							<li><strong>Email：</strong>yunli@b5m.com</li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="content line">
+					<h3>图片链接：</h3>
+					<ul class="clearfix">
+						<li><a title="京东" href="http://www.jd.com" target="_blank"><img alt="京东" src="http://cdn.bang5mai.com/upload/hp_images/jd1_20130531.png"></a></li>
+						<li><a title="京东" href="http://www.jd.com" target="_blank"><img alt="京东" src="http://cdn.bang5mai.com/upload/hp_images/jd1_20130531.png"></a></li>
+						<li><a title="京东" href="http://www.jd.com" target="_blank"><img alt="京东" src="http://cdn.bang5mai.com/upload/hp_images/jd1_20130531.png"></a></li>
+						<li><a title="京东" href="http://www.jd.com" target="_blank"><img alt="京东" src="http://cdn.bang5mai.com/upload/hp_images/jd1_20130531.png"></a></li>
+						<li><a title="京东" href="http://www.jd.com" target="_blank"><img alt="京东" src="http://cdn.bang5mai.com/upload/hp_images/jd1_20130531.png"></a></li>
+						<li><a title="京东" href="http://www.jd.com" target="_blank"><img alt="京东" src="http://cdn.bang5mai.com/upload/hp_images/jd1_20130531.png"></a></li>
+						<li><a title="京东" href="http://www.jd.com" target="_blank"><img alt="京东" src="http://cdn.bang5mai.com/upload/hp_images/jd1_20130531.png"></a></li>
+						<li><a title="京东" href="http://www.jd.com" target="_blank"><img alt="京东" src="http://cdn.bang5mai.com/upload/hp_images/jd1_20130531.png"></a></li>
+						<li><a title="京东" href="http://www.jd.com" target="_blank"><img alt="京东" src="http://cdn.bang5mai.com/upload/hp_images/jd1_20130531.png"></a></li>
+						<li><a title="京东" href="http://www.jd.com" target="_blank"><img alt="京东" src="http://cdn.bang5mai.com/upload/hp_images/jd1_20130531.png"></a></li>
+						<li><a title="京东" href="http://www.jd.com" target="_blank"><img alt="京东" src="http://cdn.bang5mai.com/upload/hp_images/jd1_20130531.png"></a></li>
+						<li><a title="京东" href="http://www.jd.com" target="_blank"><img alt="京东" src="http://cdn.bang5mai.com/upload/hp_images/jd1_20130531.png"></a></li>
+					</ul>
+				</div>
+				<div class="content line">
+					<h3>文字链接：</h3>
+					<ul class="clearfix">
+						<li><a target="_blank" href="http://old.b5m.com/o/about?spm=0.0.0.0.0">关于帮5买</a></li>
+						<li><a target="_blank" href="http://old.b5m.com/o/about?spm=0.0.0.0.0">关于帮5买</a></li>
+						<li><a target="_blank" href="http://old.b5m.com/o/about?spm=0.0.0.0.0">关于帮5买</a></li>
+						<li><a target="_blank" href="http://old.b5m.com/o/about?spm=0.0.0.0.0">关于帮5买</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<!--页底开始  -->
+
+
+
+
+
+<style>
+.footer{
+  width:100%;
+}
+</style>
+
+<!--footer s-->
+<script type="text/javascript" src="http://staticcdn.b5m.com/static/scripts/public/copyright.js"></script>
+ <!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"InfVh1aUXR00ax", domain:"b5m.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=InfVh1aUXR00ax" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+<!-- End Alexa Certify Javascript -->
+<script type='text/javascript' src='http://cdn.bang5mai.com/upload/web/public/app/tongji/stat.min.js'></script>
+<script type='text/javascript' src='http://cdn.bang5mai.com/upload/web/public/app/tongji/spc.min.js'></script>
+
+<!-- 页底结束 -->
+</body>
+<script src="sui/jsp/aboutus/aboutus.js?t=20131011144840" type="text/javascript"></script>
+</html>

@@ -1,0 +1,32 @@
+/*rest*/
+html,body{background:#f9f9f9}
+
+/*wrapper*/
+#wrapper{position:relative;min-height:100%;_height:expression(document.documentElement.clientHeight+'px')}
+
+/*header*/
+#header{padding-bottom:150px}
+.hd-logo{float:none;margin:54px auto 45px;text-align:center}
+.hd-logo img{display:block;margin:auto}
+
+.hd-search{float:none;margin:auto}
+.hd-search-tab li a{font-size:14px}
+
+#key{width:555px;margin:auto;padding:0 0 0 35px;height:31px;background:url(../images/images/sousuo_24.png) no-repeat 10px 8px;_background-image:url(../images/images/sousuo_08.png)}
+.key-list,#prev,#next{float:left}
+.key-list{width:280px;height:31px;overflow:hidden}
+.key-list li{height:31px;line-height:31px;overflow:hidden}
+.key-list a{float:left;color:#999;margin-right:10px;text-shadow:1px 1px 0px #FFF}
+.key-list a.on{color:#f47920}
+#prev,#next{background:url(../images/images/ico_key.png) no-repeat;width:13px;height:13px;text-indent:-99em;overflow:hidden;cursor:pointer;margin:9px 0 0}
+#next{background-position:-12px 0}
+#prev:hover{background-position:0 -14px}
+#next:hover{background-position:-12px -14px}
+
+.sale{position:absolute;background:url(../images/images/sale.gif) no-repeat;width:29px;height:9px;right:-24px;top:-1px;overflow:hidden}
+
+/*plug-tools*/
+.plug-tools{margin:92px auto}
+
+/*bottom*/
+#bottom{position:absolute;bottom:8px;text-align:center;width:100%;margin:0 auto;z-index:0;overflow:hidden}

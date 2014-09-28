@@ -1,0 +1,143 @@
+2014-09-28 09:57:26,606 DEBUG [com.b5m.web.filter.CommInfoSetFilter][main] - ---------------------start init properties file[classpath:PageCommInfo.properties]------------------
+2014-09-28 09:57:26,606 DEBUG [com.b5m.web.filter.CommInfoSetFilter][main] - ---------------------finished init-------------------------
+2014-09-28 09:57:26,634 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Initializing servlet 'dispatcher'
+2014-09-28 09:57:26,656 INFO [com.b5m.spring.AccessLogDispatcherServlet][main] - FrameworkServlet 'dispatcher': initialization started
+2014-09-28 09:57:26,658 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Servlet with name 'dispatcher' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [null]
+2014-09-28 09:57:29,005 INFO [com.b5m.dao.impl.DaoExecutorImpl][main] - execute sql is : [SELECT id, link, name FROM seo_links   ], and params is [[]] for sql type is [SELECT]
+2014-09-28 09:57:29,818 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Using MultipartResolver [org.springframework.web.multipart.commons.CommonsMultipartResolver@7e784b0f]
+2014-09-28 09:57:29,821 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@6c7d916]
+2014-09-28 09:57:29,825 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@33d46c97]
+2014-09-28 09:57:29,852 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - No HandlerExceptionResolvers found in servlet 'dispatcher': using default
+2014-09-28 09:57:29,855 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6e8f027e]
+2014-09-28 09:57:29,856 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Published WebApplicationContext of servlet 'dispatcher' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcher]
+2014-09-28 09:57:29,856 INFO [com.b5m.spring.AccessLogDispatcherServlet][main] - FrameworkServlet 'dispatcher': initialization completed in 3200 ms
+2014-09-28 09:57:29,856 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Servlet 'dispatcher' configured successfully
+2014-09-28 09:57:30,568 INFO [com.b5m.cached.CachedManager][Shutdown] - unloading->com.b5m.goods.promotions.cached.SuppliserCachedTemplateService
+2014-09-28 09:57:30,569 WARN [com.b5m.cached.template.SimpleCachedTemplate][Shutdown] - <unload><com.b5m.goods.promotions.cached.SuppliserCachedTemplateService> service haven't been loaded.
+2014-09-28 09:57:30,569 INFO [com.b5m.cached.CachedManager][Shutdown] - unloaded->com.b5m.goods.promotions.cached.SuppliserCachedTemplateService, took 1 ms.
+2014-09-28 09:57:30,569 INFO [com.b5m.cached.CachedManager][Shutdown] - unloading->com.b5m.goods.hotkeys.cached.HpSugGroupCachedTemplateService
+2014-09-28 09:57:30,569 WARN [com.b5m.cached.template.SimpleCachedTemplate][Shutdown] - <unload><com.b5m.goods.hotkeys.cached.HpSugGroupCachedTemplateService> service haven't been loaded.
+2014-09-28 09:57:30,569 INFO [com.b5m.cached.CachedManager][Shutdown] - unloaded->com.b5m.goods.hotkeys.cached.HpSugGroupCachedTemplateService, took 0 ms.
+2014-09-28 09:57:30,569 DEBUG [com.b5m.cached.CachedManager][Shutdown] - <closing><cached client> xmemcached ver1.3.8
+2014-09-28 09:57:30,569 DEBUG [com.b5m.cached.CachedManager][Shutdown] - <closed><cached client> xmemcached ver1.3.8
+2014-09-28 09:57:30,569 DEBUG [com.b5m.cached.CachedManager][Shutdown] - <closing><cached client> xmemcached ver1.3.8
+2014-09-28 09:57:30,569 DEBUG [com.b5m.cached.CachedManager][Shutdown] - <closed><cached client> xmemcached ver1.3.8
+2014-09-28 09:58:42,394 DEBUG [com.b5m.web.filter.CommInfoSetFilter][main] - ---------------------start init properties file[classpath:PageCommInfo.properties]------------------
+2014-09-28 09:58:42,394 DEBUG [com.b5m.web.filter.CommInfoSetFilter][main] - ---------------------finished init-------------------------
+2014-09-28 09:58:42,412 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Initializing servlet 'dispatcher'
+2014-09-28 09:58:42,436 INFO [com.b5m.spring.AccessLogDispatcherServlet][main] - FrameworkServlet 'dispatcher': initialization started
+2014-09-28 09:58:42,437 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Servlet with name 'dispatcher' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [null]
+2014-09-28 09:58:44,558 INFO [com.b5m.dao.impl.DaoExecutorImpl][main] - execute sql is : [SELECT id, link, name FROM seo_links   ], and params is [[]] for sql type is [SELECT]
+2014-09-28 09:58:45,193 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Using MultipartResolver [org.springframework.web.multipart.commons.CommonsMultipartResolver@3d20a8f7]
+2014-09-28 09:58:45,196 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@136245d3]
+2014-09-28 09:58:45,200 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@5a3391c0]
+2014-09-28 09:58:45,221 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - No HandlerExceptionResolvers found in servlet 'dispatcher': using default
+2014-09-28 09:58:45,225 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6ea814f5]
+2014-09-28 09:58:45,225 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Published WebApplicationContext of servlet 'dispatcher' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcher]
+2014-09-28 09:58:45,225 INFO [com.b5m.spring.AccessLogDispatcherServlet][main] - FrameworkServlet 'dispatcher': initialization completed in 2789 ms
+2014-09-28 09:58:45,225 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Servlet 'dispatcher' configured successfully
+2014-09-28 10:22:20,116 DEBUG [com.b5m.web.filter.CommInfoSetFilter][main] - ---------------------start init properties file[classpath:PageCommInfo.properties]------------------
+2014-09-28 10:22:20,116 DEBUG [com.b5m.web.filter.CommInfoSetFilter][main] - ---------------------finished init-------------------------
+2014-09-28 10:22:20,136 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Initializing servlet 'dispatcher'
+2014-09-28 10:22:20,160 INFO [com.b5m.spring.AccessLogDispatcherServlet][main] - FrameworkServlet 'dispatcher': initialization started
+2014-09-28 10:22:20,162 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Servlet with name 'dispatcher' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [null]
+2014-09-28 10:22:22,306 INFO [com.b5m.dao.impl.DaoExecutorImpl][main] - execute sql is : [SELECT id, link, name FROM seo_links   ], and params is [[]] for sql type is [SELECT]
+2014-09-28 10:22:23,302 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Using MultipartResolver [org.springframework.web.multipart.commons.CommonsMultipartResolver@14444397]
+2014-09-28 10:22:23,305 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@4e697f6c]
+2014-09-28 10:22:23,309 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@3227803d]
+2014-09-28 10:22:23,331 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - No HandlerExceptionResolvers found in servlet 'dispatcher': using default
+2014-09-28 10:22:23,335 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4059577f]
+2014-09-28 10:22:23,335 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Published WebApplicationContext of servlet 'dispatcher' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcher]
+2014-09-28 10:22:23,335 INFO [com.b5m.spring.AccessLogDispatcherServlet][main] - FrameworkServlet 'dispatcher': initialization completed in 3175 ms
+2014-09-28 10:22:23,335 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][main] - Servlet 'dispatcher' configured successfully
+2014-09-28 10:23:21,353 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][btpool0-0] - DispatcherServlet with name 'dispatcher' processing GET request for [/daigoucart/center.htm]
+2014-09-28 10:23:21,360 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][btpool0-0] - Last-Modified value for [/daigoucart/center.htm] is: -1
+2014-09-28 10:23:21,578 INFO [com.b5m.client.daigoucart.DaigouCartLogUtils][btpool0-0] - 值得买PHP返回数据 : docid = 60007 ---  result : {"code":0,"msg":"\u8bf7\u6c42\u6210\u529f","data":{"id":"60007","Category":"","DOCID":"60007","OriginalPictrue":"","Picture":"http:\/\/cdn.bang5mai.com\/upload\/web\/cmsphp\/product\/201409\/91174e05c86920262735.png","Price":"9.90","Source":"\u503c\u5f97\u4e70","Title":"\u5c0fS\u63a8\u8350\u963f\u820d\u5e72\u9762 *2","Url":"http:\/\/detail.tmall.com\/item.htm?id=41399236496","is_postage":"2","detailurl":"http:\/\/zdm.b5m.com\/shihui\/17922.html"}}
+2014-09-28 10:23:21,597 INFO [com.b5m.client.daigoucart.DaigouCartLogUtils][btpool0-0] - Product: {"Category":"","DOCID":"60007","OriginalPictrue":"","Picture":"http://cdn.bang5mai.com/upload/web/cmsphp/product/201409/91174e05c86920262735.png","Price":"9.90","Source":"值得买","Title":"小S推荐阿舍干面 *2","Url":"http://detail.tmall.com/item.htm?id=41399236496","detailUrl":"http://zdm.b5m.com/shihui/17922.html","detailurl":"http://zdm.b5m.com/shihui/17922.html","id":"60007","is_postage":"2"}
+2014-09-28 10:23:21,621 INFO [com.b5m.service.ontimeprice.OntimeLogUtils][btpool0-0] - queryPrices use 13 ms
+2014-09-28 10:23:21,622 INFO [com.b5m.client.daigoucart.DaigouCartLogUtils][btpool0-0] - RealTime result price null
+2014-09-28 10:23:21,701 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][btpool0-0] - Rendering view [org.springframework.web.servlet.view.JstlView: name 'cart-center'; URL [/WEB-INF/page/cart-center.jsp]] in DispatcherServlet with name 'dispatcher'
+2014-09-28 10:23:22,063 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][btpool0-0] - Could not complete request
+org.apache.jasper.JasperException: /WEB-INF/page/cart-center.jsp(122,16) PWC6038: "${category != null ? category:product.Title}" contains invalid expression(s): javax.el.ELException: Error Parsing: ${category != null ? category:product.Title}
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:62)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:357)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:169)
+	at org.apache.jasper.compiler.JspUtil.validateExpressions(JspUtil.java:633)
+	at org.apache.jasper.compiler.Validator$ValidateVisitor.visit(Validator.java:736)
+	at org.apache.jasper.compiler.Node$ELExpression.accept(Node.java:929)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2257)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2307)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2313)
+	at org.apache.jasper.compiler.Node$Root.accept(Node.java:481)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2257)
+	at org.apache.jasper.compiler.Validator.validate(Validator.java:1837)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:195)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:409)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:344)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:470)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1093)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:164)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:141)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:90)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:417)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405)
+	at org.mortbay.jetty.servlet.Dispatcher.forward(Dispatcher.java:285)
+	at org.mortbay.jetty.servlet.Dispatcher.forward(Dispatcher.java:126)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:238)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:250)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1047)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:817)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at com.b5m.spring.AccessLogDispatcherServlet.doService(AccessLogDispatcherServlet.java:25)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1093)
+	at com.b5m.web.filter.CommInfoSetFilter.doFilter(CommInfoSetFilter.java:80)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084)
+	at com.b5m.web.filter.B5MFilter.doFilter(B5MFilter.java:64)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:164)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:141)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:90)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:417)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:324)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:829)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:488)
+2014-09-28 10:23:29,390 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][btpool0-0] - DispatcherServlet with name 'dispatcher' processing GET request for [/newwww/daigoucart/center.htm]
+2014-09-28 10:23:29,416 DEBUG [com.b5m.spring.AccessLogDispatcherServlet][btpool0-0] - Successfully completed request
+2014-09-28 10:25:18,460 INFO [com.b5m.cached.CachedManager][Shutdown] - unloading->com.b5m.goods.promotions.cached.SuppliserCachedTemplateService
+2014-09-28 10:25:18,460 WARN [com.b5m.cached.template.SimpleCachedTemplate][Shutdown] - <unload><com.b5m.goods.promotions.cached.SuppliserCachedTemplateService> service haven't been loaded.
+2014-09-28 10:25:18,460 INFO [com.b5m.cached.CachedManager][Shutdown] - unloaded->com.b5m.goods.promotions.cached.SuppliserCachedTemplateService, took 0 ms.
+2014-09-28 10:25:18,460 INFO [com.b5m.cached.CachedManager][Shutdown] - unloading->com.b5m.goods.hotkeys.cached.HpSugGroupCachedTemplateService
+2014-09-28 10:25:18,460 WARN [com.b5m.cached.template.SimpleCachedTemplate][Shutdown] - <unload><com.b5m.goods.hotkeys.cached.HpSugGroupCachedTemplateService> service haven't been loaded.
+2014-09-28 10:25:18,460 INFO [com.b5m.cached.CachedManager][Shutdown] - unloaded->com.b5m.goods.hotkeys.cached.HpSugGroupCachedTemplateService, took 0 ms.
+2014-09-28 10:25:18,461 DEBUG [com.b5m.cached.CachedManager][Shutdown] - <closing><cached client> xmemcached ver1.3.8
+2014-09-28 10:25:18,461 DEBUG [com.b5m.cached.CachedManager][Shutdown] - <closed><cached client> xmemcached ver1.3.8
+2014-09-28 10:25:18,461 DEBUG [com.b5m.cached.CachedManager][Shutdown] - <closing><cached client> xmemcached ver1.3.8
+2014-09-28 10:25:18,461 DEBUG [com.b5m.cached.CachedManager][Shutdown] - <closed><cached client> xmemcached ver1.3.8

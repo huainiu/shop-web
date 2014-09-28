@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Configuration file for UrlRewriteFilter http://tuckey.org/urlrewrite/ -->
+<urlrewrite decode-using="null">
+	
+	<!-- www首页 -->
+	<rule>
+		<note>www首页</note>
+		<from>^/?(index)?/?$</from>
+		<to>/index.htm</to>
+	</rule>
+	
+	<rule>
+		<note>商品详细综合结果页
+		</note>
+		<from>^/search/s/([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)/?\.html$
+		</from>
+		<to>/goodsSearchList.htm?categoryValue=$1&amp;sortField=$2&amp;sortType=$3&amp;showType=$4&amp;sourceValue=$5&amp;brandValue=$6&amp;attrNames=$7&amp;attrValue=$8&amp;log_group_label=$9&amp;priceFrom=$10&amp;priceTo=$11&amp;splServiceValue=$12&amp;searchType=$13&amp;currPageNo=$14&amp;filterField=$15&amp;kaviFilter=$16&amp;isFreeDelivery=$17&amp;isCOD=$18&amp;isGenuine=$19&amp;keyWord=$20
+		</to>
+	</rule>
+	
+	<rule>
+		<note>服饰搜索结果页
+		</note>
+		<from>^/clothing/([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)_([^_]*)/?\.html$
+		</from>
+		<to>/clothing/$20.htm?categoryValue=$1&amp;sortField=$2&amp;sortType=$3&amp;showType=$4&amp;sourceValue=$5&amp;brandValue=$6&amp;attrNames=$7&amp;attrValue=$8&amp;log_group_label=$9&amp;priceFrom=$10&amp;priceTo=$11&amp;splServiceValue=$12&amp;searchType=$13&amp;currPageNo=$14&amp;filterField=$15&amp;kaviFilter=$16&amp;isFreeDelivery=$17&amp;isCOD=$18&amp;isGenuine=$19
+		</to>
+	</rule>
+	
+	<rule>
+		<note>
+			商品比价页
+		</note>
+		<from>^/compare/(\w{32})/?\.html$</from>
+		<to>/goodsDetail/compare.htm?docId=$1</to>
+	</rule>
+	
+	<rule>
+		<note>
+			商品比价页
+		</note>
+		<from>^/compare/([^_]*)_(\w{32})/?\.html$</from>
+		<to>/goodsDetail/compare.htm?keyword=$1&amp;docId=$2</to>
+	</rule>
+	
+	
+	<rule>
+		<note>
+			商品比价页 tab参数
+		</note>
+		<from>^/compare/(\w{32})_([0-3])/?\.html$</from>
+		<to>/goodsDetail/compare.htm?docId=$1&amp;tabNum=$2</to>
+	</rule>
+	
+	<rule>
+		<note>
+			商品比价页
+		</note>
+		<from>^/compare/(\w{32})/?\.html$</from>
+		<to>/goodsDetail/$1/compare.htm?keyword=$1&amp;docId=$2</to>
+	</rule>
+	
+	<rule>
+		<note>
+			商品详细页
+		</note>
+		<from>^/item/(\w{32})/?\.html$</from>
+		<to>/goodsDetail/item.htm?docId=$1</to>
+	</rule>
+	
+	<rule>
+		<note>
+			商品详细页
+		</note>
+		<from>^/cpc/item/(\w{32})/?\.html$</from>
+		<to>/goodsDetail/cpc/item.htm?docId=$1</to>
+	</rule>
+	
+	
+		<rule>
+		<note>
+			商品详细页
+		</note>
+		<from>^/item/(\w*)/(\w{32})/?\.html$</from>
+		<to>/goodsDetail/item/$1.htm?docId=$2</to>
+	</rule>
+	
+	<rule>
+		<note>
+			商品比价
+		</note>
+		<from>^/([^_]*)/?\.html$</from>
+		<to>/$1.htm</to>
+	</rule>
+	
+	<rule>
+		<note>
+			商品价格走势
+		</note>
+		<from>^/item/priceHistory/(\w{32})/?\.html$</from>
+		<to>/goodsDetail/priceHistory.htm?docId=$1</to>
+	</rule>
+	
+	<rule>
+		<note>
+			商品价格走势
+		</note>
+		<from>^/item/sourcePriceHistory/(\w{32})/?\.html$</from>
+		<to>/goodsDetail/sourcePriceHistory.htm?docId=$1</to>
+	</rule>
+	
+	<rule>
+		<note>
+			相关商品
+		</note>
+		<from>^/item/recommandProduces/([^_]*)_([^_]*)_([^_]*)_(\w{32})/?\.html$</from>
+		<to>/goodsDetail/recommandProduces.htm?categoryValue=$1keyword=$2&amp;pageSize=$3&amp;docId=$4</to>
+	</rule>
+	
+	<rule>
+		<note>test</note>
+		<from>^/?(test)?/?$</from>
+		<to>/test.htm</to>
+	</rule>
+	
+	<outbound-rule>
+		<note>
+		</note>
+		<from>^goodsSearchList.htm\?categoryValue=(.*)&amp;sortField=(.*)&amp;sortType=(.*)&amp;showType=(.*)&amp;sourceValue=(.*)&amp;brandValue=(.*)&amp;attrNames=(.*)&amp;attrValue=(.*)&amp;log_group_label=(.*)&amp;priceFrom=(.*)&amp;priceTo=(.*)&amp;splServiceValue=(.*)&amp;searchType=(.*)&amp;currPageNo=(.*)&amp;filterField=(.*)&amp;kaviFilter=(.*)&amp;isFreeDelivery=(.*)&amp;isCOD=(.*)&amp;isGenuine=(.*)&amp;keyWord=(.*)$
+		</from>
+		<to>search/s/$1_$2_$3_$4_$5_$6_$7_$8_$9_$10_$11_$12_$13_$14_$15_$16_$17_$18_$19_$20.html
+		</to>
+	</outbound-rule>
+
+    <rule>
+		<note>
+			商品详细综合结果页
+		</note>
+		<from>^/shop_((\d)*)/?\.html$</from>
+		<to>/shop_$1.htm</to>
+	</rule>
+	
+	<rule>
+		<note>
+			商品详细综合结果页
+		</note>
+		<from>^/cp/([^_]*)/?\.html$</from>
+		<to>/cp/$1.htm</to>
+	</rule>
+	
+	<rule>
+		<note>
+			商品详细综合结果页
+		</note>
+		<from>^/cp/([^_]*)_((\d)*)/?\.html$</from>
+		<to>/cp/$1.htm?currentPage=$2</to>
+	</rule>
+</urlrewrite>

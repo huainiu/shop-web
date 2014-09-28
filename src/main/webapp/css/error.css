@@ -1,0 +1,26 @@
+/*edit by jimmy 2013/01/31 star*/
+body{font-size:14px;}
+.w980{width:980px;margin:0 auto}
+.err-hd{height:45px;margin:40px 0}
+.err-hd img,.err-wrap .m-logo img{display:block}
+.err-wrap{background:#fff;border:1px solid #ddd;height:314px;position:relative}
+.err-wrap .m-logo,.err-wrap .err-main{float:left;}
+.err-wrap .m-logo{margin:40px 40px 0 37px;width:300px;height:235px;display:inline}
+.err-wrap .err-result{font:400 30px \5fae\8f6f\96c5\9ed1,\9ed1\4f53;color:#666;height:45px;margin-top:55px}
+.err-wrap .err-reason,.err-wrap .err-operating{font-size:14px}
+.err-wrap .err-operating h3{padding:47px 0 10px}
+.err-wrap .err-operating li{background:url(../images/images/small_icon.png) no-repeat 0 7px;padding-left:12px}
+.err-wrap .err-operating li p{clear:both}
+.err-wrap .err-operating li span,.err-wrap .err-operating li a{float:left}
+.err-wrap .err-operating li span{width:120px}
+.err-wrap .err-operating li a{margin-right:20px;font-family:\5b8b\4f53;color:#248bcd;text-decoration:underline}
+/*edit by jimmy 2013/01/31 end*/
+
+.error_sejie h2{height:50px;line-height:50px;font-size:14px}
+.error_sejie .sejie_cont{height:320px;overflow:hidden;}
+.error_sejie .sejie_cont ul{overflow:hidden;width:1000px;position:relative;z-index:1;}
+.error_sejie .sejie_cont li{float:left;padding-right:17px;}
+.error_sejie .sejie_cont .sejiediv{padding:6px;height:306px;width:218px;border:1px solid #ddd;overflow:hidden;background:#fff;}
+.error_sejie .sejie_cont .sejiediv a{width:218px;height:306px;}
+.error_sejie .sejie_cont .sejiediv div{width:218px;height:306px;overflow:hidden;}
+.error_sejie .sejie_cont .sejiediv img{width:218px;}

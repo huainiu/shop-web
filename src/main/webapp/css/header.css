@@ -1,0 +1,45 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,fieldset,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 Hiragino Sans GB,tahoma,arial,\5b8b\4f53}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,i{font-style:normal;}
+ul,li{list-style:none;}
+html,legend{color:#666;}
+a,a:visited{color:#666;text-decoration:none;hide-fous:expression(this.hideFocus=true);outline:none;}
+a:hover,a:active{color:#f06723;}
+img{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear-fix:after{content:"020";display:block;height:0;clear:both;visibility:hidden;}
+.clear-fix{*zoom:1;}
+body{background:url(../images/b5m_bg.png);}
+
+/*common*/
+.pic{display:table-cell;vertical-align:middle;}
+.pic img{vertical-align:middle;}
+.gray{color:#999;}
+.red{color:#f00;}
+.blue{color:#248bcd;}
+.green{color:#;}
+.orange{color:#f4772c;}
+.over_text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.over_one,.over_two,.over_three{height:18px;line-height:18px;overflow:hidden;}
+.over_two{height:36px;}
+.over_three{height:54px;}
+.item_left{float:left;}
+.item_right{float:right;}
+.showNode{display:block;}
+.hideNode{display:none;}
+.frame{border:1px solid #ddd;}
+#iframe_pc{background:#000;height:100%;left:0;opacity:0.2;position:fixed;top:0;width:100%;z-index:19998; filter:alpha(opacity=20);}
+.animated{-moz-transition:all 0.25s ease-out;-o-transition:all 0.25s ease-out;-webkit-transition:all 0.25s ease-out;transition:all 0.25s ease-out;}
+
+/*container*/
+#b5m_container{width:100%;}
+#b5m_container .b5m_container{width:980px;margin:0 auto;}
+
+/*page*/
+.page{color:#7E7E7E;overflow:hidden;padding:10px 0;text-align:center;}
+.page li{display:inline;}
+.page li a{border:1px solid #999;color:#7E7E7E;display:inline-block;color:#666;width:23px;height:22px;line-height:22px;}
+.page li a.pages{width:48px;font-weight:900;font-family:\5b8b\4f53;position:relative;top:-1px}
+.page li a.active,.page li a:hover{color:#fff;font-weight:900;background-color:#eb8226;border-color:#eb8226;}
+.page input{border:1px solid #999;width:24px;height:16px;line-height:16px;text-align:center;padding:3px 0;*position:relative;top:2px;margin:0 5px}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+   <!-- chart config -->
+   <connect>true</connect>                                    <!-- [false] (true / false) whether to connect points if y data is missing -->
+   
+   <text_color>#666666</text_color>
+   
+   <legend>
+      <enabled>true</enabled>
+      <align>right</align>
+      <values>                                                  <!-- VALUES -->          
+	      <enabled>true</enabled>                                 <!-- [false] (true / false) whether to show values near legend entries or not -->
+	      <width>80</width>                                       <!-- [80] (Number) width of text field for value -->
+	      <align>left</align>                                     <!-- [right] (right / left) -->
+	      <text><![CDATA[{value}]]></text>                     <!-- [{value}] ({title} {value} {series} {description} {percents}) You can format any text: {value} will be replaced with value, {description} - with description and so on. You can add your own text or html code too. -->
+     </values>
+   </legend>
+   
+   <plot_area>                                                <!-- PLOT AREA (the area between axes) -->
+    <color></color>                                           <!-- [#FFFFFF](hex color code) Separate color codes with comas for gradient -->
+    <alpha></alpha>                                           <!-- [0] (0 - 100) if you want it to be different than background color, use bigger than 0 value -->
+    <border_color></border_color>                             <!-- [#000000] (hex color code) -->                                        
+    <border_alpha></border_alpha>                             <!-- [0] (0 - 100) -->
+    <margins>                                                 <!-- plot area margins -->
+      <left>80</left>                                         <!-- [60](Number) --> 
+      <top>10</top>                                            <!-- [60](Number) --> 
+      <right>20</right>                                       <!-- [60](Number) --> 
+      <bottom>60</bottom>                                    <!-- [80](Number) --> 
+    </margins>
+  </plot_area>
+
+  <axes>
+    <x>
+      <alpha>0</alpha>
+    </x>
+    <y_left>
+      <alpha>0</alpha>
+    </y_left>
+  </axes>
+
+   <!-- plugin config -->   
+  <!--  <plugins>
+    value indicator plugin is suitable for line chart, column chart & xy chart
+    <plugin file="../js/value_indicator.swf" position="above">      
+      <chart_type>line</chart_type>                                             
+      <axis>left</axis>                                                         
+      <line_color>#c0d0e0</line_color>                                         
+      <line_alpha></line_alpha>                                               
+      <text_color>#c0d0e0</text_color>                                         
+      <text_size>13</text_size>                                                
+      <precision>2</precision>        
+    </plugin>
+  </plugins> -->
+</settings>

@@ -1,0 +1,108 @@
+@charset "utf-8";/* CSS Document */
+/*登录S*/
+.loginpage{ width:100%; padding-top:100px;}
+.logincon{ margin:0 auto; width:545px;}
+.loglogo{ background:url(../images/backstage/logo.png) no-repeat;_background:url(../images/backstage/_logo.gif) no-repeat; width:205px; height:46px; text-indent:-9999px;}
+.logform{ padding:45px 80px; margin-top:12px; background:#fff;}
+.logform h3{ font-size:24px; color:#333333;}
+.logform td{ padding:5px 0; color:#5f5f5f; font-size:16px;}
+.logform td em{ display:inline-block; width:70px; text-align:right;}
+.loinptext{ width:292px; height:35px; line-height:35px; border:1px solid #eeeeee; border-width:2px 1px 1px 2px;}
+.losubbtn{ background-position:0 0; padding:0; width:119px; height:30px; line-height:30px; color:#884102;text-shadow:1px 1px 2px #ffc17f; text-align:center; font-family:Arial; border:none; font-weight:bold; font-size:14px; cursor:pointer;}
+.smalfont{ font-size:12px;}
+/*登录E*/
+
+/*设置类表格S*/
+.settable{}
+.settable td{ padding:5px 0; line-height:28px; vertical-align: top;}
+.settable em{ display:inline-block; width:100px; text-align:right; font-size:14px;}
+.settable .setinp{ width:180px; height:22px; line-height:22px; border:1px solid #ddd; border-width:2px 1px 1px 2px;}
+.settable input{ margin-right:2px; vertical-align:middle;}
+.settable a{ color:#666;}
+.setsubbtn, .setcelbtn, .searchbox .seabtn{ background: url(../images/backstage/btnbg.jpg) repeat-x;}
+.setsubbtn{ background-position:0 0; border:1px solid #d65c3b; color:#fff;padding:0 15px; height:34px; line-height:34px; cursor:pointer; font-size:14px;}
+.setcelbtn{ background-position:0 -34px;border:1px solid #cccccc; color:#333333;padding:0 15px; height:34px; line-height:34px; cursor:pointer; font-size:14px;}
+.redf{ color:#F00; font-family:Arial; margin-right:3px;}
+.msmlft{ font-size:14px; font-weight:bold;}
+.midft{ font-size:16px; font-weight:bold;}
+.blueft{ color:#217dca;}
+/*设置类表格E*/
+
+/*展示类表格S*/
+.showtable{width:100%; border:1px solid #cfd1d6; border-width:1px 1px 0 0;font-size:13px;}
+.showtable th{ background:#edeef1; font-size:14px;}
+.showtable td, .showtable th{ height:20px; line-height:20px; padding:5px;border:1px solid #cfd1d6; border-width:0 0 1px 1px; text-align:center;}
+.showtable td a, .showtable td a:visited{ color:#459acc;}
+.showtable td a:hover{ text-decoration:underline;}
+.showtable tr.colbg td{ background:#f8f8f8;}
+.showtable tr.hovbg td{ background:#fefce9;}
+.choschek{margin-right:5px; vertical-align:middle;}
+
+.zhankai em.ico11{ margin-right:3px; display:inline-block; width:9px; height:9px; background:url(../images/ico4.gif) no-repeat;}
+.zhankai em.ico22{ background-position:0 -10px;}
+.showtable .zhankaicon{ display:none;}
+.showtable .zhankaicon td{ padding:0;}
+.showtable .zhankaicon td table{}
+.showtable .zhankaicon td table td{ padding:5px;}
+
+.notabg{ display:inline-block; margin-right:5px; width:12px; height:12px; position:relative;zoom:1;}
+.notabg .choschek{ position: absolute;left:0;top:0; background:#fff;opacity:0;}
+.notabg em{display:inline-block; width:12px; height:12px;position: absolute;left:0;top:0; background: #4E6B30;}
+/*展示类表格E*/
+
+/*翻页S*/
+.pagebox{ height:40px; line-height:40px; text-align:right; /* position:relative;zoom:1; */}
+.pagebox a{ margin:0 3px; padding:0 6px; color:#333}
+.pagebox a:visited{color:#333}
+.pagebox a:hover{color:#ee7d1c; text-decoration:underline;}
+.pagebox a.on{ border:1px solid #d0d0d0; background:#f9f9f9; color:#ee7d1c;}
+.pagebox a.updown{ border:1px solid #d0d0d0; background:#f9f9f9;}
+.pagebox select{ margin:0 5px;}
+.pagebox .gotopage{ width:40px; height:20px; line-height:20px; text-align:center; color:#ee7d1c; border:1px solid #ddd; border-width:0 0 1px;}
+.choope{ position:absolute;left:0;top:0;}
+.pagebox a.blueft{ color:#217dca;}
+/*翻页E*/
+
+/*系统设置S*/
+.sys_setdl{ padding:15px 0 0 15px; line-height:30px; font-weight:bold;}
+.sys_setdl dt{ font-size:18px;color:#217dca;}
+.sys_setdl dd{ color:#999999;}
+.sys_setdl dd a, .sys_setdl dd a:visited{ color:#217dca;}
+
+.searchbox{ height:40px; line-height:40px; position:relative;zoom:1;}
+.searchbox input{ margin-right:8px; vertical-align:middle;}
+.searchbox .inpt{ width:150px; border:1px solid #ddd; height:22px; line-height:22px;}
+.searchbox select{ margin-right:8px; border:1px solid #ddd; padding:3px;}
+.searchbox .seabtn{ background-position:0 -34px; margin-bottom:2px; padding:0 10px; height:27px; line-height:27px; border:1px solid #ccc; color:#333; cursor:pointer;}
+/*系统设置E*/
+
+/*用户组S*/
+.allzunum{ height:30px; line-height:30px; font-size:14px; position:relative;zoom:1;}
+/*用户组E*/
+
+/*筛选项S*/
+.screenbox{ margin-top:10px; border:1px solid #edeef1; border-width:1px 0; padding:10px 0; font-weight:bold;}
+.screenbox .tlt{ padding-bottom:10px; font-size:14px;}
+.screenbox dl{ display:inline; padding:0 50px 10px 0;}
+.screenbox dl *{display:inline;}
+.screenbox dt{ color:#999999;}
+.screenbox dd{ padding-left:15px;}
+.screenbox .all{ color:#ee7d1c;}
+.screenbox dd a{ color:#3c88ce;}
+.screenbox dd a:hover{ text-decoration:underline;}
+ /** img **/
+ a.img-wrap{
+	 width:200px;
+	 height:200px;
+ 	background-color: rgb(200, 200, 200);
+ 	border: 1px solid rgb(200, 200, 200);
+ 	display: inline-block;
+}
+
+
+
+
+
+
+
+

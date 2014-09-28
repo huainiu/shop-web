@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- com.b5m.goods.search.SF1QueryService中将会使用到线程池 -->
+	<bean id="searchThreadPool" class="java.util.concurrent.ThreadPoolExecutor" >
+		<!-- corePoolSize the number of threads to keep in the pool, even if they are idle. -->
+		<constructor-arg index="0" value="30"></constructor-arg>
+		<!-- maximumPoolSize the maximum number of threads to allow in the pool. -->
+		<constructor-arg index="1" value="300"></constructor-arg>
+		<!-- keepAliveTime when the number of threads is greater than the core, this is the maximum time that excess idle 
+	 threads will wait for new tasks before terminating. -->
+		<constructor-arg index="2" value="5"></constructor-arg>
+		<constructor-arg index="3" type="java.util.concurrent.TimeUnit" value="MINUTES"></constructor-arg>
+		<constructor-arg index="4">
+			<bean class="java.util.concurrent.LinkedBlockingQueue">
+				<!-- capacity -->
+				<constructor-arg index="0" value="600"></constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
+</beans>

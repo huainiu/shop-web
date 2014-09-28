@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+<script type="text/javascript">
+	function test(s){
+		var history = window.history;
+		var state = { //这里可以是你想给浏览器的一个State对象，为后面的StateEvent做准备。
+					title : "HTML 5 History API simple demo",
+					url : s
+					};
+	 history.pushState(state, "HTML 5 History API simple demo", "yourpage");
+	}
+</script>
+ </head>
+ <body>
+	<button onclick="test(1)">click 1</button>
+	<button onclick="test(2)">click 1</button>
+ </body>
+</html>

@@ -1,0 +1,52 @@
+{
+    "limit":100,
+    "conditions":[
+        {
+            "value":[
+                "42e32070722beeafec2fd11b8d8c757d"
+            ],
+            "property":"uuid",
+            "operator":"="
+        }
+    ],
+    "sort":[
+        
+    ],
+    "search":{
+        "group_label":[
+            
+        ],
+        "keywords":"*",
+        "ranking_model":"bm25",
+        "log_keywords":false,
+        "analyzer":{
+            "apply_la":true,
+            "use_original_keyword":false,
+            "use_synonym_extension":true
+        },
+        "in":[
+            {
+                "property":"Title"
+            }
+        ]
+    },
+    "select":[
+        {
+            "property":"Picture"
+        },
+        {
+            "property":"Source"
+        }
+    ],
+    "analyzer_result":true,
+    "attr":{
+        "attr_result":false,
+        "attr_top":20
+    },
+    "remove_duplicated_result":false,
+    "collection":"b5mp",
+    "offset":0,
+    "header":{
+        "check_time":"true"
+    }
+}

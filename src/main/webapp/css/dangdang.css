@@ -1,0 +1,53 @@
+﻿.pro_content .section {
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.pro_content .key {
+	padding-top: 10px;
+}
+
+.pro_content .key li {
+	text-indent: 22px;
+	width: 33%;
+	text-align: left;
+	float: left;
+	line-height: 24px;
+}
+
+.product_book .pro_content .section .tit {
+	font-size: 14px;
+}
+
+.pro_content .section .tit,.pro_content .right_title1,.pro_content .left_title_1
+	{
+	background-color: #f5f5f5;
+	font-weight: bold;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 17px;
+	color: #404040;
+}
+
+.pro_content .section .descrip,.right_content {
+	font-size: 14px;
+	padding: 25px 29px 15px;
+}
+
+.mall_goods_foursort_style {
+	padding: 15px 0;
+}
+
+.mall_goods_foursort_style_frame {
+	float: left;
+	line-height: 22px;
+	overflow: hidden;
+	color: #666;
+	width: 33%;
+	text-indent: 22px;
+}
+
+.mall_goods_foursort_style_frame a {
+	color: #666;
+}
